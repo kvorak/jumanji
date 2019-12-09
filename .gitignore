@@ -1,1 +1,11 @@
+# Ignore Fantasy Grounds II artifacts
 chatlog.html
+db.restore.xml
+db.session.*
+extensionstate.xml
+windowstate.xml
+modulestate.xml
+CampaignRegistry.lua
+
+# Ignore other tool settings
+/usersettings
