@@ -134,6 +134,8 @@
 			<name type="string">Goblin</name>
 		</id-00020>
 	</languages>
+	<library>
+	</library>
 	<modifiers>
 		<public />
 	</modifiers>
@@ -143,4 +145,48 @@
 	<partysheet>
 		<public />
 	</partysheet>
+	<tables>
+		<category name="Jumanji: Encounter Generator" baseicon="0" decalicon="0">
+			<id-00002>
+				<description type="string">A random encounter table of CR encounters in any Jungle enviornment.</description>
+				<dice type="dice"></dice>
+				<hiderollresults type="number">0</hiderollresults>
+				<labelcol1 type="string">Encounter</labelcol1>
+				<locked type="number">1</locked>
+				<mod type="number">0</mod>
+				<name type="string">Jungle Encounter CR 1</name>
+				<notes type="formattedtext">
+					<p></p>
+				</notes>
+				<resultscols type="number">1</resultscols>
+				<table_positionoffset type="number">0</table_positionoffset>
+				<tablerows>
+					<id-00001>
+						<fromrange type="number">0</fromrange>
+						<results>
+							<id-00001>
+								<resultlink type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">0</torange>
+					</id-00001>
+					<id-00002>
+						<fromrange type="number">0</fromrange>
+						<results>
+							<id-00001>
+								<resultlink type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">0</torange>
+					</id-00002>
+				</tablerows>
+			</id-00002>
+		</category>
+	</tables>
 </root>

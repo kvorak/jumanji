@@ -5,7 +5,6 @@ db.session.*
 extensionstate.xml
 windowstate.xml
 modulestate.xml
-CampaignRegistry.lua
 
 # Ignore other tool settings
 /usersettings
