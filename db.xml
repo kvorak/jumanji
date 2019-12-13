@@ -139,6 +139,60 @@
 	<modifiers>
 		<public />
 	</modifiers>
+	<npc>
+		<category name="Jumanji Beastiary" baseicon="0" decalicon="0">
+			<id-00001>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">0</ac>
+				<actions>
+				</actions>
+				<hp type="number">0</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<legendaryactions>
+				</legendaryactions>
+				<locked type="number">1</locked>
+				<name type="string">Nipple Eater</name>
+				<reactions>
+				</reactions>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+				</text>
+				<token type="token"></token>
+				<traits>
+				</traits>
+				<xp type="number">0</xp>
+			</id-00001>
+		</category>
+	</npc>
 	<options>
 		<public />
 	</options>
