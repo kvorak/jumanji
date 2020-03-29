@@ -1,10 +1,1927 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root version="3.3" release="8|CoreRPG:4">
+	<background>
+	</background>
+	<battle>
+		<id-00004>
+			<cr type="string">1/2</cr>
+			<exp type="number">100</exp>
+			<locked type="number">1</locked>
+			<name type="string">Kobold Trappers</name>
+			<npclist>
+				<id-00001>
+					<count type="number">2</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>reference.npcdata.kobold@DD MM Monster Manual</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+						<id-00002>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00002>
+					</maplink>
+					<name type="string">Kobold</name>
+					<token type="token">tokens/kobold.png@DD MM Monster Manual</token>
+				</id-00001>
+				<id-00002>
+					<count type="number">2</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>reference.npcdata.mastiff@DD PHB Deluxe</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+						<id-00002>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00002>
+					</maplink>
+					<name type="string">Mastiff</name>
+					<token type="token">tokens/mastiff.png@DD PHB Deluxe</token>
+				</id-00002>
+			</npclist>
+		</id-00004>
+		<id-00005>
+			<cr type="string">1/4</cr>
+			<exp type="number">50</exp>
+			<locked type="number">1</locked>
+			<name type="string">Giant Centipede</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>reference.npcdata.giantcentipede@DD MM Monster Manual</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class>imagewindow</class>
+								<recordname>image.id-00009.image</recordname>
+							</imageref>
+							<imagex type="number">1441</imagex>
+							<imagey type="number">1695</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Giant Centipede</name>
+					<token type="token">tokens/G.png@DD MM Monster Manual</token>
+				</id-00001>
+			</npclist>
+		</id-00005>
+		<id-00006>
+			<cr type="string">1/4</cr>
+			<exp type="number">50</exp>
+			<locked type="number">1</locked>
+			<name type="string">Giant Poisonous Snake</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>reference.npcdata.giantpoisonoussnake@DD MM Monster Manual</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class>imagewindow</class>
+								<recordname>image.id-00009.image</recordname>
+							</imageref>
+							<imagex type="number">289</imagex>
+							<imagey type="number">1599</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Giant Poisonous Snake</name>
+					<token type="token">tokens/G.png@DD MM Monster Manual</token>
+				</id-00001>
+			</npclist>
+		</id-00006>
+		<id-00007>
+			<cr type="string">2</cr>
+			<exp type="number">450</exp>
+			<locked type="number">1</locked>
+			<name type="string">Xeriel, the Black Dragon</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00008</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class>imagewindow</class>
+								<recordname>image.id-00008.image</recordname>
+							</imageref>
+							<imagex type="number">865</imagex>
+							<imagey type="number">767</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Xeriel</name>
+					<token type="token">tokens/blackdragonwyrmling.png@DD MM Monster Manual</token>
+				</id-00001>
+			</npclist>
+		</id-00007>
+		<category name="Jumanji: Encounter Generator" baseicon="0" decalicon="0">
+			<id-00001>
+				<cr type="string">1</cr>
+				<exp type="number">200</exp>
+				<locked type="number">1</locked>
+				<name type="string">Kobold Camp</name>
+				<npclist>
+					<id-00001>
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.wingedkobold@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Winged Kobold</name>
+						<token type="token">tokens/wingedkobold.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">4</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.kobold@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+							<id-00004>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00004>
+						</maplink>
+						<name type="string">Kobold</name>
+						<token type="token">tokens/kobold.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00001>
+			<id-00002>
+				<cr type="string">1/2</cr>
+				<exp type="number">100</exp>
+				<locked type="number">1</locked>
+				<name type="string">Bigteeth</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.crocodile@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Crocodile</name>
+						<token type="token">tokens/C.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00002>
+			<id-00003>
+				<cr type="string">1</cr>
+				<exp type="number">200</exp>
+				<locked type="number">1</locked>
+				<name type="string">Tiger</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.tiger@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Tiger</name>
+						<token type="token">tokens/T.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00003>
+		</category>
+	</battle>
+	<battlerandom>
+		<category name="Jumanji Encounter Generator" baseicon="0" decalicon="0">
+			<id-00001>
+				<locked type="number">1</locked>
+				<name type="string">Flying Snakes</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d4+2</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.flyingsnake@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Flying Snake</name>
+						<token type="token">tokens/F.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00001>
+			<id-00002>
+				<locked type="number">1</locked>
+				<name type="string">Kobold Trappers</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d4</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.kobold@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Kobold</name>
+						<token type="token">tokens/kobold.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<expr type="string">1d4</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.mastiff@DD PHB Deluxe</recordname>
+						</link>
+						<name type="string">Mastiff</name>
+						<token type="token">tokens/mastiff.png@DD PHB Deluxe</token>
+					</id-00002>
+				</npclist>
+			</id-00002>
+			<id-00003>
+				<locked type="number">1</locked>
+				<name type="string">Kobold Bandits</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.wingedkobold@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Winged Kobold</name>
+						<token type="token">tokens/wingedkobold.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<expr type="string">1d4+2</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.kobold@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Kobold</name>
+						<token type="token">tokens/kobold.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00003>
+			<id-00004>
+				<locked type="number">1</locked>
+				<name type="string">Rat Pack</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d4</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.diseasedgiantrat@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Diseased Giant Rat</name>
+						<token type="token">tokens/D.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<expr type="string">1d4</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantrat@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Giant Rat</name>
+						<token type="token">tokens/giantrat.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00004>
+			<id-00005>
+				<locked type="number">1</locked>
+				<name type="string">Stirge Nest</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.swarmofinsects_centipedes_@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Swarm of Insects (Centipedes)</name>
+						<token type="token">tokens/S.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<expr type="string">1d4</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.stirge@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Stirge</name>
+						<token type="token">tokens/stirge.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00005>
+			<id-00006>
+				<locked type="number">1</locked>
+				<name type="string">Axe Beak Flock</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d4+1</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.axebeak@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Axe Beak</name>
+						<token type="token">tokens/A.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00006>
+			<id-00007>
+				<locked type="number">1</locked>
+				<name type="string">Boar Pack</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d4+1</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.boar@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Boar</name>
+						<token type="token">tokens/B.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00007>
+		</category>
+	</battlerandom>
 	<calendar>
 		<public />
 	</calendar>
+	<charsheet>
+		<id-00001>
+			<holder name="Baird" owner="true" />
+			<abilities>
+				<holder name="Baird" owner="true" />
+				<charisma>
+					<holder name="Baird" owner="true" />
+					<bonus type="number">-1</bonus>
+					<save type="number">-1</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">9</score>
+				</charisma>
+				<constitution>
+					<holder name="Baird" owner="true" />
+					<bonus type="number">2</bonus>
+					<save type="number">4</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">1</saveprof>
+					<score type="number">15</score>
+				</constitution>
+				<dexterity>
+					<holder name="Baird" owner="true" />
+					<bonus type="number">3</bonus>
+					<save type="number">3</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">16</score>
+				</dexterity>
+				<intelligence>
+					<holder name="Baird" owner="true" />
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">11</score>
+				</intelligence>
+				<strength>
+					<holder name="Baird" owner="true" />
+					<bonus type="number">2</bonus>
+					<save type="number">4</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">1</saveprof>
+					<score type="number">14</score>
+				</strength>
+				<wisdom>
+					<holder name="Baird" owner="true" />
+					<bonus type="number">1</bonus>
+					<save type="number">1</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">13</score>
+				</wisdom>
+			</abilities>
+			<adventurelist>
+				<holder name="Baird" owner="true" />
+			</adventurelist>
+			<background type="string">Outlander</background>
+			<backgroundlink type="windowreference">
+				<class>reference_background</class>
+				<recordname>reference.backgrounddata.outlander@DD PHB Deluxe</recordname>
+			</backgroundlink>
+			<classes>
+				<holder name="Baird" owner="true" />
+				<id-00001>
+					<holder name="Baird" owner="true" />
+					<casterlevelinvmult type="number">0</casterlevelinvmult>
+					<casterpactmagic type="number">0</casterpactmagic>
+					<hddie type="dice">d12</hddie>
+					<hdused type="number">0</hdused>
+					<level type="number">1</level>
+					<name type="string">Barbarian</name>
+					<shortcut type="windowreference">
+						<class>reference_class</class>
+						<recordname>reference.classdata.barbarian@DD PHB Deluxe</recordname>
+					</shortcut>
+				</id-00001>
+			</classes>
+			<coins>
+				<holder name="Baird" owner="true" />
+				<slot1>
+					<holder name="Baird" owner="true" />
+					<amount type="number">10</amount>
+					<name type="string">gp</name>
+				</slot1>
+				<slot2>
+					<holder name="Baird" owner="true" />
+					<amount type="number">3</amount>
+					<name type="string">sp</name>
+				</slot2>
+				<slot3>
+					<holder name="Baird" owner="true" />
+					<amount type="number">5</amount>
+					<name type="string">cp</name>
+				</slot3>
+				<slot4>
+					<holder name="Baird" owner="true" />
+					<amount type="number">0</amount>
+				</slot4>
+				<slot5>
+					<holder name="Baird" owner="true" />
+					<amount type="number">0</amount>
+				</slot5>
+				<slot6>
+					<holder name="Baird" owner="true" />
+					<amount type="number">0</amount>
+				</slot6>
+			</coins>
+			<defenses>
+				<holder name="Baird" owner="true" />
+				<ac>
+					<holder name="Baird" owner="true" />
+					<armor type="number">0</armor>
+					<misc type="number">0</misc>
+					<prof type="number">1</prof>
+					<shield type="number">2</shield>
+					<stat2 type="string">constitution</stat2>
+					<temporary type="number">0</temporary>
+					<total type="number">17</total>
+				</ac>
+			</defenses>
+			<encumbrance>
+				<holder name="Baird" owner="true" />
+				<encumbered type="number">70</encumbered>
+				<encumberedheavy type="number">140</encumberedheavy>
+				<liftpushdrag type="number">420</liftpushdrag>
+				<load type="number">79</load>
+				<max type="number">210</max>
+			</encumbrance>
+			<exp type="number">300</exp>
+			<expneeded type="number">600</expneeded>
+			<featlist>
+				<holder name="Baird" owner="true" />
+			</featlist>
+			<featurelist>
+				<holder name="Baird" owner="true" />
+				<id-00001>
+					<holder name="Baird" owner="true" />
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Rage</name>
+					<source type="string">Barbarian</source>
+					<text type="formattedtext">
+						<p>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
+						<list>
+							<li>You have advantage on Strength checks and Strength saving throws.</li>
+							<li>When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.</li>
+							<li>You have resistance to bludgeoning, piercing, and slashing damage.</li>
+						</list>
+						<p>If you are able to cast spells, you can't cast them or concentrate on them while raging.</p>
+						<p>Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you have neither attacked a hostile creature since your last turn nor taken damage since then. You can also end your rage as a bonus action on your turn</p>
+						<p>Once you have raged the number of times shown for your barbarian level in the Rages column of the Barbarian table, you must finish a long rest before you can rage again.</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<holder name="Baird" owner="true" />
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Unarmored Defense</name>
+					<source type="string">Barbarian</source>
+					<text type="formattedtext">
+						<p>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<holder name="Baird" owner="true" />
+					<locked type="number">1</locked>
+					<name type="string">Wanderer</name>
+					<source type="string">Outlander</source>
+					<text type="formattedtext">
+						<p>You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.</p>
+					</text>
+				</id-00003>
+			</featurelist>
+			<hp>
+				<holder name="Baird" owner="true" />
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<temporary type="number">0</temporary>
+				<total type="number">14</total>
+				<wounds type="number">0</wounds>
+			</hp>
+			<initiative>
+				<holder name="Baird" owner="true" />
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">3</total>
+			</initiative>
+			<inspiration type="number">0</inspiration>
+			<inventorylist>
+				<holder name="Baird" owner="true" />
+				<id-00001>
+					<holder name="Baird" owner="true" />
+					<carried type="number">1</carried>
+					<cost type="string">20 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Smith's Tools</name>
+					<subtype type="string">Artisan's Tools</subtype>
+					<type type="string">Tools</type>
+					<weight type="number">8</weight>
+				</id-00001>
+				<id-00002>
+					<holder name="Baird" owner="true" />
+					<carried type="number">2</carried>
+					<cost type="string">10 gp</cost>
+					<count type="number">1</count>
+					<damage type="string">1d8 slashing</damage>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Battleaxe</name>
+					<properties type="string">Versatile (1d10)</properties>
+					<subtype type="string">Martial Weapons</subtype>
+					<type type="string">Weapon</type>
+					<weight type="number">4</weight>
+				</id-00002>
+				<id-00004>
+					<holder name="Baird" owner="true" />
+					<carried type="number">2</carried>
+					<cost type="string">5 sp</cost>
+					<count type="number">4</count>
+					<damage type="string">1d6 piercing</damage>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Javelin</name>
+					<properties type="string">Thrown (range 30/120)</properties>
+					<subtype type="string">Simple Melee Weapons</subtype>
+					<type type="string">Weapon</type>
+					<weight type="number">2</weight>
+				</id-00004>
+				<id-00005>
+					<holder name="Baird" owner="true" />
+					<ac type="number">2</ac>
+					<carried type="number">2</carried>
+					<cost type="string">10 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>
+					</description>
+					<dexbonus type="string">-</dexbonus>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Shield</name>
+					<stealth type="string">-</stealth>
+					<strength type="string">-</strength>
+					<subtype type="string">Shield</subtype>
+					<type type="string">Armor</type>
+					<weight type="number">6</weight>
+				</id-00005>
+				<id-00006>
+					<holder name="Baird" owner="true" />
+					<carried type="number">1</carried>
+					<cost type="string">1 gp</cost>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Bedroll</name>
+					<subtype type="string">Standard</subtype>
+					<type type="string">Adventuring Gear</type>
+					<weight type="number">7</weight>
+				</id-00006>
+				<id-00007>
+					<holder name="Baird" owner="true" />
+					<carried type="number">1</carried>
+					<cost type="string">5 sp</cost>
+					<count type="number">3</count>
+					<description type="formattedtext">
+						<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Rations (1 Day)</name>
+					<subtype type="string">Standard</subtype>
+					<type type="string">Adventuring Gear</type>
+					<weight type="number">2</weight>
+				</id-00007>
+				<id-00008>
+					<holder name="Baird" owner="true" />
+					<carried type="number">1</carried>
+					<cost type="string">1 cp</cost>
+					<count type="number">10</count>
+					<description type="formattedtext">
+						<p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Torch</name>
+					<subtype type="string">Standard</subtype>
+					<type type="string">Adventuring Gear</type>
+					<weight type="number">1</weight>
+				</id-00008>
+				<id-00009>
+					<holder name="Baird" owner="true" />
+					<carried type="number">1</carried>
+					<cost type="string">5 sp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch-or anything else with abundant, exposed fuel-takes an action. Lighting any other fire takes 1 minute.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Tinderbox</name>
+					<subtype type="string">Standard</subtype>
+					<type type="string">Adventuring Gear</type>
+					<weight type="number">1</weight>
+				</id-00009>
+				<id-00010>
+					<holder name="Baird" owner="true" />
+					<carried type="number">1</carried>
+					<cost type="string">2 sp</cost>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Waterskin</name>
+					<subtype type="string">Standard</subtype>
+					<type type="string">Adventuring Gear</type>
+					<weight type="number">5</weight>
+				</id-00010>
+				<id-00011>
+					<holder name="Baird" owner="true" />
+					<carried type="number">1</carried>
+					<cost type="string">2 sp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Mess Kit</name>
+					<subtype type="string">Equipment Kits</subtype>
+					<type type="string">Adventuring Gear</type>
+					<weight type="number">1</weight>
+				</id-00011>
+				<id-00012>
+					<holder name="Baird" owner="true" />
+					<carried type="number">1</carried>
+					<cost type="string">1 gp</cost>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Rope, Hempen (50 Feet)</name>
+					<subtype type="string">Standard</subtype>
+					<type type="string">Adventuring Gear</type>
+					<weight type="number">10</weight>
+				</id-00012>
+				<id-00013>
+					<holder name="Baird" owner="true" />
+					<carried type="number">1</carried>
+					<cost type="string">2 gp</cost>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Backpack (Empty)</name>
+					<subtype type="string">Standard</subtype>
+					<type type="string">Adventuring Gear</type>
+					<weight type="number">5</weight>
+				</id-00013>
+				<id-00014>
+					<holder name="Baird" owner="true" />
+					<carried type="number">2</carried>
+					<cost type="string">50 gp</cost>
+					<count type="number">1</count>
+					<damage type="string">1d8 piercing</damage>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Longbow</name>
+					<properties type="string">Ammunition (range 150/600), heavy, two-handed</properties>
+					<subtype type="string">Martial Ranged Weapons</subtype>
+					<type type="string">Weapon</type>
+					<weight type="number">2</weight>
+				</id-00014>
+				<id-00015>
+					<holder name="Baird" owner="true" />
+					<carried type="number">1</carried>
+					<cost type="string">1 gp</cost>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Arrows (20)</name>
+					<subtype type="string">Ammunition</subtype>
+					<type type="string">Adventuring Gear</type>
+					<weight type="number">1</weight>
+				</id-00015>
+				<id-00016>
+					<holder name="Baird" owner="true" />
+					<carried type="number">1</carried>
+					<cost type="string">2 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p></p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Shovel</name>
+					<subtype type="string">Standard</subtype>
+					<type type="string">Adventuring Gear</type>
+					<weight type="number">5</weight>
+				</id-00016>
+			</inventorylist>
+			<languagelist>
+				<holder name="Baird" owner="true" />
+				<id-00001>
+					<holder name="Baird" owner="true" />
+					<name type="string">Common</name>
+				</id-00001>
+				<id-00002>
+					<holder name="Baird" owner="true" />
+					<name type="string">Elvish</name>
+				</id-00002>
+				<id-00003>
+					<holder name="Baird" owner="true" />
+					<name type="string">Draconic</name>
+				</id-00003>
+			</languagelist>
+			<level type="number">1</level>
+			<name type="string">Levram Scimoc</name>
+			<perception type="number">13</perception>
+			<perceptionmodifier type="number">0</perceptionmodifier>
+			<powermeta>
+				<holder name="Baird" owner="true" />
+				<pactmagicslots1>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</pactmagicslots1>
+				<pactmagicslots2>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</pactmagicslots2>
+				<pactmagicslots3>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</pactmagicslots3>
+				<pactmagicslots4>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</pactmagicslots4>
+				<pactmagicslots5>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</pactmagicslots5>
+				<pactmagicslots6>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</pactmagicslots6>
+				<pactmagicslots7>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</pactmagicslots7>
+				<pactmagicslots8>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</pactmagicslots8>
+				<pactmagicslots9>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</pactmagicslots9>
+				<spellslots1>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</spellslots1>
+				<spellslots2>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</spellslots2>
+				<spellslots3>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</spellslots3>
+				<spellslots4>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</spellslots4>
+				<spellslots5>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</spellslots5>
+				<spellslots6>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</spellslots6>
+				<spellslots7>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</spellslots7>
+				<spellslots8>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</spellslots8>
+				<spellslots9>
+					<holder name="Baird" owner="true" />
+					<max type="number">0</max>
+				</spellslots9>
+			</powermeta>
+			<powers>
+				<holder name="Baird" owner="true" />
+			</powers>
+			<profbonus type="number">2</profbonus>
+			<proficiencylist>
+				<holder name="Baird" owner="true" />
+				<id-00001>
+					<holder name="Baird" owner="true" />
+					<name type="string">Weapon: Simple weapons, martial weapons</name>
+				</id-00001>
+				<id-00002>
+					<holder name="Baird" owner="true" />
+					<name type="string">Armor: Light armor. medium armor, shields</name>
+				</id-00002>
+				<id-00003>
+					<holder name="Baird" owner="true" />
+					<name type="string">Tool: Smith's Tools</name>
+				</id-00003>
+			</proficiencylist>
+			<race type="string">Human</race>
+			<racelink type="windowreference">
+				<class>reference_race</class>
+				<recordname>reference.racedata.human@DD PHB Deluxe</recordname>
+			</racelink>
+			<size type="string">Medium</size>
+			<skilllist>
+				<holder name="Baird" owner="true" />
+				<id-00001>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Perception</name>
+					<prof type="number">1</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">3</total>
+				</id-00001>
+				<id-00002>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Arcana</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00002>
+				<id-00003>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Persuasion</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">-1</total>
+				</id-00003>
+				<id-00004>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Nature</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00004>
+				<id-00005>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Medicine</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">1</total>
+				</id-00005>
+				<id-00006>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Survival</name>
+					<prof type="number">1</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">3</total>
+				</id-00006>
+				<id-00007>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Performance</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">-1</total>
+				</id-00007>
+				<id-00008>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Acrobatics</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">3</total>
+				</id-00008>
+				<id-00009>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Religion</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00009>
+				<id-00010>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Athletics</name>
+					<prof type="number">1</prof>
+					<stat type="string">strength</stat>
+					<total type="number">4</total>
+				</id-00010>
+				<id-00011>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Sleight of Hand</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">3</total>
+				</id-00011>
+				<id-00012>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Insight</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">1</total>
+				</id-00012>
+				<id-00013>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Intimidation</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">-1</total>
+				</id-00013>
+				<id-00014>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Deception</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">-1</total>
+				</id-00014>
+				<id-00015>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Investigation</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00015>
+				<id-00016>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Stealth</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">3</total>
+				</id-00016>
+				<id-00017>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">History</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00017>
+				<id-00018>
+					<holder name="Baird" owner="true" />
+					<misc type="number">0</misc>
+					<name type="string">Animal Handling</name>
+					<prof type="number">1</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">3</total>
+				</id-00018>
+			</skilllist>
+			<speed>
+				<holder name="Baird" owner="true" />
+				<armor type="number">0</armor>
+				<base type="number">30</base>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">30</total>
+			</speed>
+			<temp>
+				<holder name="Baird" owner="true" />
+			</temp>
+			<token type="token">portrait_id-00001_token</token>
+			<traitlist>
+				<holder name="Baird" owner="true" />
+			</traitlist>
+			<weaponlist>
+				<holder name="Baird" owner="true" />
+				<id-00001>
+					<holder name="Baird" owner="true" />
+					<carried type="number">2</carried>
+					<damagelist>
+						<holder name="Baird" owner="true" />
+						<id-00001>
+							<holder name="Baird" owner="true" />
+							<dice type="dice">d8</dice>
+							<stat type="string">base</stat>
+							<type type="string">slashing</type>
+						</id-00001>
+					</damagelist>
+					<isidentified type="number">1</isidentified>
+					<maxammo type="number">0</maxammo>
+					<name type="string">Battleaxe</name>
+					<prof type="number">1</prof>
+					<properties type="string">Versatile (1d10)</properties>
+					<shortcut type="windowreference">
+						<class>item</class>
+						<recordname>....inventorylist.id-00002</recordname>
+					</shortcut>
+					<type type="number">0</type>
+				</id-00001>
+				<id-00004>
+					<holder name="Baird" owner="true" />
+					<carried type="number">2</carried>
+					<damagelist>
+						<holder name="Baird" owner="true" />
+						<id-00001>
+							<holder name="Baird" owner="true" />
+							<dice type="dice">d6</dice>
+							<stat type="string">base</stat>
+							<type type="string">piercing</type>
+						</id-00001>
+					</damagelist>
+					<isidentified type="number">1</isidentified>
+					<maxammo type="number">0</maxammo>
+					<name type="string">Javelin</name>
+					<prof type="number">1</prof>
+					<properties type="string">Thrown (range 30/120)</properties>
+					<shortcut type="windowreference">
+						<class>item</class>
+						<recordname>....inventorylist.id-00004</recordname>
+					</shortcut>
+					<type type="number">0</type>
+				</id-00004>
+				<id-00005>
+					<holder name="Baird" owner="true" />
+					<carried type="number">2</carried>
+					<damagelist>
+						<holder name="Baird" owner="true" />
+						<id-00001>
+							<holder name="Baird" owner="true" />
+							<dice type="dice">d6</dice>
+							<stat type="string">base</stat>
+							<type type="string">piercing</type>
+						</id-00001>
+					</damagelist>
+					<isidentified type="number">1</isidentified>
+					<maxammo type="number">0</maxammo>
+					<name type="string">Javelin</name>
+					<prof type="number">1</prof>
+					<properties type="string">Thrown (range 30/120)</properties>
+					<shortcut type="windowreference">
+						<class>item</class>
+						<recordname>....inventorylist.id-00004</recordname>
+					</shortcut>
+					<type type="number">2</type>
+				</id-00005>
+				<id-00006>
+					<holder name="Baird" owner="true" />
+					<ammo type="number">0</ammo>
+					<carried type="number">2</carried>
+					<damagelist>
+						<holder name="Baird" owner="true" />
+						<id-00001>
+							<holder name="Baird" owner="true" />
+							<dice type="dice">d8</dice>
+							<stat type="string">base</stat>
+							<type type="string">piercing</type>
+						</id-00001>
+					</damagelist>
+					<isidentified type="number">1</isidentified>
+					<maxammo type="number">20</maxammo>
+					<name type="string">Longbow</name>
+					<prof type="number">1</prof>
+					<properties type="string">Ammunition (range 150/600), heavy, two-handed</properties>
+					<shortcut type="windowreference">
+						<class>item</class>
+						<recordname>....inventorylist.id-00014</recordname>
+					</shortcut>
+					<type type="number">1</type>
+				</id-00006>
+			</weaponlist>
+		</id-00001>
+	</charsheet>
+	<class>
+	</class>
 	<combattracker>
 		<public />
+		<list>
+			<public />
+			<id-00001>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<score type="number">9</score>
+					</charisma>
+					<constitution>
+						<public />
+						<score type="number">15</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<score type="number">16</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<score type="number">11</score>
+					</intelligence>
+					<strength>
+						<public />
+						<score type="number">14</score>
+					</strength>
+					<wisdom>
+						<public />
+						<score type="number">13</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">17</ac>
+				<actions>
+					<public />
+				</actions>
+				<active type="number">0</active>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">friend</friendfoe>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">14</hptotal>
+				<init type="number">3</init>
+				<initresult type="number">15</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<isidentified type="number">0</isidentified>
+				<lairactions>
+					<public />
+				</lairactions>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>charsheet</class>
+					<recordname>charsheet.id-00001</recordname>
+				</link>
+				<name type="string">Levram Scimoc</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<size type="string">Medium</size>
+				<space type="number">5</space>
+				<speed type="string">30</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<token type="token">portrait_id-00001_token</token>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+				</traits>
+				<type type="string">Human</type>
+				<wounds type="number">0</wounds>
+			</id-00001>
+			<id-00002>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">7</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-4</bonus>
+						<score type="number">3</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">12</ac>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</desc>
+						<name type="string">Bite</name>
+						<value type="string">Bite [M] [ATK: +3] [DMG: 1d6+1 piercing] [SAVEVS: strength 11] [EFF: Prone]</value>
+					</id-00001>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">unaligned</alignment>
+				<cr type="string">1/8</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(1d8 + 1)</hd>
+				<hp type="number">5</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">5</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">20</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<isidentified type="number">1</isidentified>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Mastiff 1</name>
+				<nonid_name type="string">Unidentified Creature 1</nonid_name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">passive Perception 13</senses>
+				<size type="string">Medium</size>
+				<skills type="string">Perception +3</skills>
+				<sourcelink type="windowreference">
+					<class>npc</class>
+					<recordname>reference.npcdata.mastiff@DD PHB Deluxe</recordname>
+				</sourcelink>
+				<space type="number">5</space>
+				<speed type="string">40 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<token type="token">tokens/mastiff.png@DD PHB Deluxe</token>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.</desc>
+						<name type="string">Keen Hearing and Smell</name>
+						<value type="string">Keen hearing and smell</value>
+					</id-00001>
+				</traits>
+				<type type="string">beast</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">25</xp>
+			</id-00002>
+			<id-00003>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">3</bonus>
+						<score type="number">16</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">14</ac>
+				<actext type="string">leather armor, defense style</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<name type="string">Spear</name>
+						<value type="string">Spear</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<name type="string">Longsword</name>
+						<value type="string">Longsword</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<name type="string">Longbow</name>
+						<value type="string">Longbow</value>
+					</id-00003>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">lawful neutral</alignment>
+				<conditionimmunities type="string">sleep, charm</conditionimmunities>
+				<cr type="string">1/8</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">friend</friendfoe>
+				<hd type="string">(1d10 + 7)</hd>
+				<hp type="number">12</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">12</hptotal>
+				<init type="number">1</init>
+				<initresult type="number">19</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<isidentified type="number">1</isidentified>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">common, elven, gnome, dwarven</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Evelyn</name>
+				<nonid_name type="string">Craftsman</nonid_name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<savingthrows type="string">Strength +2, Dexterity +3</savingthrows>
+				<senses type="string">darkvision 60 ft.</senses>
+				<size type="string">Medium</size>
+				<skills type="string">Nature +4, Stealth +3, Survival +5</skills>
+				<sourcelink type="windowreference">
+					<class>npc</class>
+					<recordname>npc.id-00002</recordname>
+				</sourcelink>
+				<space type="number">5</space>
+				<speed type="string">30 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<targets>
+					<public />
+				</targets>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token">tokens/Medium/j.png@Letter Tokens</token>
+				<tokenvis type="number">1</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Smithing tools, Leatherworker's tools, Woodcarver's tools</desc>
+						<name type="string">Tool Proficiencies</name>
+						<value type="string">Tool proficiencies</value>
+					</id-00001>
+				</traits>
+				<type type="string">humanoid (half-elf)</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">25</xp>
+			</id-00003>
+			<id-00004>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">7</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-4</bonus>
+						<score type="number">3</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">12</ac>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</desc>
+						<name type="string">Bite</name>
+						<value type="string">Bite [M] [ATK: +3] [DMG: 1d6+1 piercing] [SAVEVS: strength 11] [EFF: Prone]</value>
+					</id-00001>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">unaligned</alignment>
+				<cr type="string">1/8</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(1d8 + 1)</hd>
+				<hp type="number">5</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">5</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">20</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<isidentified type="number">1</isidentified>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Mastiff 2</name>
+				<nonid_name type="string">Unidentified Creature 2</nonid_name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">passive Perception 13</senses>
+				<size type="string">Medium</size>
+				<skills type="string">Perception +3</skills>
+				<sourcelink type="windowreference">
+					<class>npc</class>
+					<recordname>reference.npcdata.mastiff@DD PHB Deluxe</recordname>
+				</sourcelink>
+				<space type="number">5</space>
+				<speed type="string">40 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<token type="token">tokens/mastiff.png@DD PHB Deluxe</token>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.</desc>
+						<name type="string">Keen Hearing and Smell</name>
+						<value type="string">Keen hearing and smell</value>
+					</id-00001>
+				</traits>
+				<type type="string">beast</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">25</xp>
+			</id-00004>
+			<id-00005>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">-1</bonus>
+						<score type="number">9</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">15</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">7</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">7</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">12</ac>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</desc>
+						<name type="string">Dagger</name>
+						<value type="string">Dagger [M] [ATK: +4] [DMG: 1d4+2 piercing]</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</desc>
+						<name type="string">Sling</name>
+						<value type="string">Sling [R] [ATK: +4] [DMG: 1d4+2 bludgeoning]</value>
+					</id-00002>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">lawful evil</alignment>
+				<cr type="string">1/8</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(2d6- 2)</hd>
+				<hp type="number">5</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">5</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">20</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<isidentified type="number">1</isidentified>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">Common, Draconic</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Kobold 1</name>
+				<nonid_name type="string">Unidentified Creature 1</nonid_name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">darkvision 60 ft., passive Perception 8</senses>
+				<size type="string">Small</size>
+				<sourcelink type="windowreference">
+					<class>npc</class>
+					<recordname>reference.npcdata.kobold@DD MM Monster Manual</recordname>
+				</sourcelink>
+				<space type="number">5</space>
+				<speed type="string">30 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<text type="formattedtext">
+					<h>Kobolds</h>
+					<linklist>
+						<link class="imagewindow" recordname="reference.imagedata.img_kobold_jpg@*"><b>Image: </b></link>Kobolds</linklist>
+					<p>Kobolds are craven reptilian humanoids that worship evil dragons as demigods and serve them as minions and toadies. Kobolds inhabit dragons' lairs when they can but more commonly infest dungeons, gathering treasures and trinkets to add to their own tiny hoards.</p>
+					<p><b><i>Strength in Numbers. </i></b>Kobolds are egg-laying creatures. They mature quickly and can live to be &#34;great wyrms&#34; more than a century old. However, many kobolds perish before they reach the end of their first decade. Physically weak, they are easy prey for predators. This vulnerability forces them to band together. Their superior numbers can win battles against powerful adversaries, but often with massive casualties on the kobold side.</p>
+					<p><b><i>Tunnelers and Builders. </i></b>Kobolds make up for their physical ineptitude with a cleverness for trap making and tunneling. Their lairs consist of low tunnels through which they move easily but which hinder larger humanoids. Kobolds also riddle their lairs with traps. The most insidious kobold traps make use of natural hazards and other creatures. A trip wire might connect to a spring-loaded trap that hurls clay pots of flesh-eating green slime or flings crates of venomous giant centipedes at intruders.</p>
+					<p><b><i>The Lost God. </i></b>In addition to the dragons they revere, kobolds worship a lesser god named Kurtulmak. Legends speak of how Kurtulmak served as Tiamat's vassal in the Nine Hells until Garl Glittergold, the god of gnomes, stole a trinket from the Dragon Queen's hoard. Tiamat sent Kurtulmak to retrieve the trinket, but Garl Glittergold played a trick on him, collapsing the earth and trapping the kobold god in an underground maze for eternity. For this reason, kobolds hate gnomes and pranks of any kind. Kurtulmak's most devoted worshipers dedicate themselves to finding and releasing their lost god from his prison-maze.</p>
+				</text>
+				<token type="token">tokens/kobold.png@DD MM Monster Manual</token>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</desc>
+						<name type="string">Sunlight Sensitivity</name>
+						<value type="string">Sunlight sensitivity</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.</desc>
+						<name type="string">Pack Tactics</name>
+						<value type="string">Pack tactics</value>
+					</id-00002>
+				</traits>
+				<type type="string">humanoid (kobold)</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">25</xp>
+			</id-00005>
+			<id-00006>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">-1</bonus>
+						<score type="number">9</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">15</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">7</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">7</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">12</ac>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</desc>
+						<name type="string">Dagger</name>
+						<value type="string">Dagger [M] [ATK: +4] [DMG: 1d4+2 piercing]</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</desc>
+						<name type="string">Sling</name>
+						<value type="string">Sling [R] [ATK: +4] [DMG: 1d4+2 bludgeoning]</value>
+					</id-00002>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">lawful evil</alignment>
+				<cr type="string">1/8</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(2d6- 2)</hd>
+				<hp type="number">5</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">5</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">20</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<isidentified type="number">1</isidentified>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">Common, Draconic</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Kobold 2</name>
+				<nonid_name type="string">Unidentified Creature 2</nonid_name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">darkvision 60 ft., passive Perception 8</senses>
+				<size type="string">Small</size>
+				<sourcelink type="windowreference">
+					<class>npc</class>
+					<recordname>reference.npcdata.kobold@DD MM Monster Manual</recordname>
+				</sourcelink>
+				<space type="number">5</space>
+				<speed type="string">30 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<text type="formattedtext">
+					<h>Kobolds</h>
+					<linklist>
+						<link class="imagewindow" recordname="reference.imagedata.img_kobold_jpg@*"><b>Image: </b></link>Kobolds</linklist>
+					<p>Kobolds are craven reptilian humanoids that worship evil dragons as demigods and serve them as minions and toadies. Kobolds inhabit dragons' lairs when they can but more commonly infest dungeons, gathering treasures and trinkets to add to their own tiny hoards.</p>
+					<p><b><i>Strength in Numbers. </i></b>Kobolds are egg-laying creatures. They mature quickly and can live to be &#34;great wyrms&#34; more than a century old. However, many kobolds perish before they reach the end of their first decade. Physically weak, they are easy prey for predators. This vulnerability forces them to band together. Their superior numbers can win battles against powerful adversaries, but often with massive casualties on the kobold side.</p>
+					<p><b><i>Tunnelers and Builders. </i></b>Kobolds make up for their physical ineptitude with a cleverness for trap making and tunneling. Their lairs consist of low tunnels through which they move easily but which hinder larger humanoids. Kobolds also riddle their lairs with traps. The most insidious kobold traps make use of natural hazards and other creatures. A trip wire might connect to a spring-loaded trap that hurls clay pots of flesh-eating green slime or flings crates of venomous giant centipedes at intruders.</p>
+					<p><b><i>The Lost God. </i></b>In addition to the dragons they revere, kobolds worship a lesser god named Kurtulmak. Legends speak of how Kurtulmak served as Tiamat's vassal in the Nine Hells until Garl Glittergold, the god of gnomes, stole a trinket from the Dragon Queen's hoard. Tiamat sent Kurtulmak to retrieve the trinket, but Garl Glittergold played a trick on him, collapsing the earth and trapping the kobold god in an underground maze for eternity. For this reason, kobolds hate gnomes and pranks of any kind. Kurtulmak's most devoted worshipers dedicate themselves to finding and releasing their lost god from his prison-maze.</p>
+				</text>
+				<token type="token">tokens/kobold.png@DD MM Monster Manual</token>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</desc>
+						<name type="string">Sunlight Sensitivity</name>
+						<value type="string">Sunlight sensitivity</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.</desc>
+						<name type="string">Pack Tactics</name>
+						<value type="string">Pack tactics</value>
+					</id-00002>
+				</traits>
+				<type type="string">humanoid (kobold)</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">25</xp>
+			</id-00006>
+		</list>
+		<round type="number">0</round>
 	</combattracker>
 	<currencies>
 		<public />
@@ -32,8 +1949,481 @@
 	<effects>
 		<public />
 	</effects>
+	<encounter>
+		<id-00006>
+			<locked type="number">1</locked>
+			<name type="string">2.2 Skill Challenges</name>
+			<text type="formattedtext">
+				<p>The following skill challenges are likely to occur in this region:</p>
+				<linklist>
+					<link class="encounter" recordname="encounter.id-00008">Leeches</link>
+					<link class="encounter" recordname="encounter.id-00009">Storms</link>
+					<link class="encounter" recordname="encounter.id-00010">Difficult Terrain</link>
+				</linklist>
+			</text>
+		</id-00006>
+		<id-00008>
+			<locked type="number">1</locked>
+			<name type="string">3.1 Leeches</name>
+			<text type="formattedtext">
+				<p>This encounter is intended to deplete party resources; not kill them.</p>
+				<h>Development</h>
+				<p>Given the many streams and pools in this jungle, it is common for adventurers to come across leeches in the water. These creatures attach themselves to all members of the party.</p>
+				<h>Actions</h>
+				<p>Each hour that the party travels, have each character attempt a DC 8 Constitution saving throw. Those who fail notice that they are feeling badly and become poisoned. Removing the leeches requires a successful DC 12 Wisdom (Medicine) check. This check may only be attempted once per hour per character and the process takes 10 minutes.</p>
+				<p><b>Condition Reference</b></p>
+				<linklist>
+					<link class="referencemanualpage" recordname="reference.refmanualdata.refpage_appendixa_conditions@DD PHB Deluxe">PHB Appendix A: Conditions</link>
+				</linklist>
+			</text>
+		</id-00008>
+		<id-00009>
+			<locked type="number">1</locked>
+			<name type="string">3.2 Storms</name>
+			<text type="formattedtext">
+				<p>Storms in the jungle are dangerous for their own reasons and in a magical world, even more so. The following encounter involves the characters attempting to find and/or create shelter from the storm and mostly slows them down or penalizes them in some way.</p>
+				<h>Features</h>
+				<p>A storm in this jungle lasts for 1d6 hours. While a storm is active, the jungle is heavily obscured and creatures are considered blinded against targets farther than 10 ft. away.</p>
+				<h>Skill Challenge</h>
+				<p>Surviving the storm is usually pretty simple: players must make a DC 11 Survival check. On a success, they manage to erect enough shelter that they will remain safe so long as they wait out the storm. On a failure, they cannot make such a structure and the characters remain subject to the random encounter table while making no progress. If this encounter is rolled again, extend the storm's duration by 1d6 hours.</p>
+				<h>References</h>
+				<linklist>
+					<link class="referencemanualpage" recordname="reference.refmanualdata.refpage_visionandlight@DD PHB Deluxe">Vision and Light</link>
+					<link class="referencemanualpage" recordname="reference.refmanualdata.refpage_appendixa_conditions@DD PHB Deluxe">Appendix A: Conditions</link>
+				</linklist>
+			</text>
+		</id-00009>
+		<id-00010>
+			<locked type="number">1</locked>
+			<name type="string">3.3 Difficult Terrain</name>
+			<text type="formattedtext">
+				<p>Characters must cross difficult terrain. If they succeed, they only lose half their travel time, failure incurs both travel time and one stack of exhaustion.</p>
+				<h>Skill Challenge</h>
+				<p>When the challenge begins, the DM should roll 1d6. At the end of the encounter, all characters will have to make a Constitution saving throw, DC is equal to 11 + the number rolled, or gain one level of exhaustion.</p>
+				<p>To mitigate this difficulty, characters may attempt a number of skill checks over the same 1d6 number of 10 minute rounds.</p>
+				<table>
+					<tr>
+						<td colspan="2">Wisdom (Survival)</td>
+						<td colspan="2">DC 11. Time in the wilderness has made you comfortable with these kinds of situations. Gain a +1 bonus to your final saving throw</td>
+					</tr>
+					<tr>
+						<td colspan="2">Strength (Athletics)</td>
+						<td colspan="2">DC 11. You simply don't fatigue quickly. Gain a +1 bonus to your final saving throw</td>
+					</tr>
+					<tr>
+						<td colspan="2">Strength (Athletics)</td>
+						<td colspan="2">DC 17. Cut a trail. Grant a +1 bonus to the entire party's final saving throw</td>
+					</tr>
+					<tr>
+						<td colspan="2">Wisdom (Medicine)</td>
+						<td colspan="2">DC 17. Tend to the group and prevent fatigue. Grant a +1 bonus to the party's final saving throw</td>
+					</tr>
+				</table>
+				<h>Rules Reference</h>
+				<linklist>
+					<link class="referencemanualpage" recordname="reference.refmanualdata.refpage_appendixa_conditions@DD PHB Deluxe">Appendix A: Conditions (see Exhaustion)</link>
+				</linklist>
+			</text>
+		</id-00010>
+		<id-00011>
+			<name type="string">Kobold Ecology</name>
+			<text type="formattedtext">
+				<p></p>
+			</text>
+		</id-00011>
+		<category name="Jumanji Adventures: The Huntsmen" baseicon="0" decalicon="0">
+			<id-00004>
+				<name type="string">0.0 - Notes</name>
+				<text type="formattedtext">
+					<p>This adventure centers around Jerros Lorec, a local craftsman looking to hire a group of adventurers to help him track down some crafting materials he requires.</p>
+					<linklist>
+						<link class="npc" recordname="npc.id-00002">Jerros Lorec, craftsman, enchanter and patron</link>
+					</linklist>
+					<p>Jerros is attempting to craft a suit Glamoured Studded Leather. For that, he will need to harvest an organ from a Quasit or other shapechanger. He is hiring the players to accompany him into the jungle as he searches for the prey as he is no warrior.</p>
+				</text>
+			</id-00004>
+			<id-00005>
+				<name type="string">1.0 - Forming the Huntsmen</name>
+				<text type="formattedtext">
+					<p>This adventure is written for a party of four 1st level characters and is intended to be an introduction to Jumanji and some of the homebrew systems in play as much as a real stand-alone adventure. In fact, much of this adventure is presented in template formats to facilitate re-use at other levels as Jumanji provides a fair number of randomly generated game elements.</p>
+					<p>Players are free to play any characters they like, but if it helps to direct their choices, read or paraphrase the following:</p>
+					<frame>You begin your life as adventurers here, in Abior one of the more stable city-states in the Three Rivers region of Jumanji. Abior is led by a skilled and wise hunter named Jargo who, with his band of Trusted, patrol the nearby jungle hunting the more powerful beasts and disuading bandits, allowing the town to flourish.</frame>
+					<frame>Abior is a settlement formed of many different races, all cooperating at least for the most part; the jungle still remains the city's greatest, shared threat. At the time it was formed, Jargo's father, a human named Talor, had decided to set down roots and build a stable home for his new-born son; the child's elven mother, Sibhel, refused the half-elf child and returned to her people. Talor settled the land with the help of the rest of the human hunter-gatherer tribe and Albior was born.</frame>
+					<frame>Now, two generations of men later, an aging Jargo sits comfortably in his great hall as the town continues to grow and flourish. Recently, Tymor a friend and one of the Trusted, recovered and translated some ancient documents left by master craftsmen from long ago and shared there secrets. Since then, the city's industry is booming as craftsmen perfect these arts.</frame>
+					<frame>This boom in industry has also spawned an interest in collecting materials from the plants and creatures of the region to discover their properties and in response to that need, the Hunter's Guild and the Craftsmen's Guild have been formed.</frame>
+					<h>Development</h>
+					<p>Once the players are settled into their environment, the town erupts in screams as Xevorix, a wyrmling black dragon swoops in for his periodic terror raids. Xevorix tends to wait until Jargo and his Trusted leave Abior and then, once they are too far away to do anything about it, harrasses the town for an hour or so before flying away. During this encounter, the characters will have to escape the dragon's attacks and the crumbling bits of town and make it safely to the keep.</p>
+					<h>Dragon Attack</h>
+					<p>This encounter will progress over three phases. First, the dragon will attack the small residential buildings, driving a terrified public into the streets. Once panic has ensued, he will begin to attack anyone out in the open as they run towards the keep. If enough people make the keep to defend it, he will do as much damage as he can and leave. In game terms this means:</p>
+					<p><b>Phase One: Terror</b></p>
+					<p>The dragon flies about overhead roaring, breaking rooftops and spitting acid at structural weaknesses. Each turn, the dragon will take one of the following actions:</p>
+					<table>
+						<tr>
+							<td>Breathe Acid</td>
+							<td colspan="2">The dragon targets a structure near a random player and breathes acid, causing it to crumble. One random character must make a DC 11 Dexterity saving throw or take 6 (2d6) bludgeoning damage on a failed save.</td>
+						</tr>
+						<tr>
+							<td>Attack Building</td>
+							<td colspan="2">The dragon attacks a rooftop of a nearby building. All characters within 20 ft. must make a DC 11 Dexterity saving throw or take 6 (2d6) bludeoning damage on a failed save.</td>
+						</tr>
+						<tr>
+							<td>Roar</td>
+							<td colspan="2">All characters that can hear the dragon must succeed on a DC 12 Wisdom saving throw or become frightened. This is a fear effect.</td>
+						</tr>
+					</table>
+					<p>When Xevorix attacks, the characters will be somewhere at the outer edge of town. Characters will have to navigate the outer town as they withdraw to the keep.</p>
+					<table>
+						<tr>
+							<td>Dexterity (Stealth)</td>
+							<td colspan="2">DC 12: the character moves slowly but with cover and stealth, gaining 1 success. This action is not penalized by survivors.</td>
+						</tr>
+						<tr>
+							<td>Strenth (Athletics) or Dexterity (Acrobatics)</td>
+							<td colspan="2">DC 8: the character runs and jumps his way through the crumbling debris, gaining 1 success.</td>
+						</tr>
+						<tr>
+							<td>Intelligence (Arcana) or Intelligence (Nature)</td>
+							<td colspan="2">DC 12: leveraging what the character knows of dragons, it can evade, gaining 1 success. Grant other characters that can hear you a +2 circumstance bonus to their next ability check to evade.</td>
+						</tr>
+						<tr>
+							<td>Charisma (Persuasion)</td>
+							<td colspan="2">DC 12: convince another townsman to follow you. The character will suffer a -1 penalty for each follower, but will gain +10xp for each one that reaches the keep.</td>
+						</tr>
+					</table>
+					<p>Once each character has made two successes, Xevorix changes his tactics. With people in the streets, he begins to swoop down and try to catch them before dropping the lifeless bodies to the ground. As he focuses in on the players, he begins to target any followers the players have collected.</p>
+				</text>
+			</id-00005>
+		</category>
+		<category name="Jumanji Regions: Three Rivers" baseicon="0" decalicon="0">
+			<id-00001>
+				<locked type="number">0</locked>
+				<name type="string">1. The Three Rivers</name>
+				<text type="formattedtext">
+					<p>The region known as Three Rivers is the area around an inverted delta on the coast of the mainland. With mountains to the west and large, flat plain that slopes softly toward the ocean in the east, three large rivers converge forming a floodplain rich in sediment and fertile land. Like much of the world, the land is too overgrown for much farming, but it yields bountifully in game, nuts, berries, fruits and other forageable food items.</p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00001">Map of the Three Rivers</link>
+						<link class="encounter" recordname="encounter.id-00002">2.1 The Upper Jungle</link>
+					</linklist>
+				</text>
+			</id-00001>
+			<id-00002>
+				<locked type="number">1</locked>
+				<name type="string">2.1 The Upper Jungle</name>
+				<text type="formattedtext">
+					<linklist>
+						<link class="table" recordname="tables.id-00001">The Upper Jungle: Random Encounters CR 1</link>
+					</linklist>
+				</text>
+			</id-00002>
+			<id-00003>
+				<locked type="number">1</locked>
+				<name type="string">2.1.a Kobold Camp</name>
+				<text type="formattedtext">
+					<p>A small band of 6 kobolds holds the camp itself with their pet crocodile, Bigteeth.</p>
+					<h>Contains</h>
+					<linklist>
+						<link class="battle" recordname="battle.id-00001">Kobold Camp</link>
+						<link class="battle" recordname="battle.id-00002">Bigteeth</link>
+						<link class="imagewindow" recordname="image.id-00002">kobold-camp-small-ground</link>
+						<link class="imagewindow" recordname="image.id-00003">kobold-camp-small-upper</link>
+					</linklist>
+					<h>Development</h>
+					<p>There are several ways that a character could wind up attacking or escaping from this camp.</p>
+					<p><b>Two-Scene</b></p>
+					<list>
+						<li>Characters encountering Kobolds anywhere in the jungle could track them back here (alive or not...)</li>
+						<li>Characters who are defeated anywhere in the jungle may wake to find that they have been captured and are being held here.</li>
+						<li>Characters encountering those who have come afoul of the vermin may track them here.</li>
+						<li>Pixies may lead the characters here for a number of reasons (see the pixie encounter in this chapter).</li>
+					</list>
+				</text>
+			</id-00003>
+			<id-00007>
+				<locked type="number">1</locked>
+				<name type="string">2.1.b Pixie Tribes</name>
+				<text type="formattedtext">
+					<p>There are pixies here in this part of the jungle that tend toward trying to protect it. They are lawful neutral by nature and prefer to be non-violent in their methods. The pixies are often the unfortunate victems of Kobold traps in the jungle and are in a very tense slow war with the sprites who protect nature by destroying those that harm it. They too are often victems of the Kobolds.</p>
+					<p>Characters may meet the pixies either as the pixie is ovserving them while they travel, injured and recovering from a kobold trap, sprite ambush, or other predator. Usually, the creature will not provoke a fight and will try to disengage rather than join one.</p>
+					<h>Development</h>
+					<p>There are a number of scenarios where characters would encounter pixies as part of a longer sequence.</p>
+					<p><b>Two-scene</b></p>
+					<list>
+						<li>Character who are defeated by the jungle will often be revived by benevolent pixies; usually with a request to aid them in some small favor in return. This is often to destroy an enemy that they cannot (a single combat encounter).</li>
+						<li>Pixies will also be encountered following the players and after that skill sequence is resolved could be talked into showing them a specific prey they are hunting or place to make camp.</li>
+						<li>If the pixies are captured by Kobolds, they are usually taken to the camp. Players who owe a pixie a favor may be asked to rescue their kin.</li>
+					</list>
+				</text>
+			</id-00007>
+			<id-00012>
+				<locked type="number">1</locked>
+				<name type="string">2.2 Xeriel's Lair</name>
+				<text type="formattedtext">
+					<p>Xeriel is a wyrmling black dragon who has taken up residence at the home of a former flax farmer.</p>
+					<h>Locations</h>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00013">the farmhouse</link>
+						<link class="encounter" recordname="encounter.id-00014">the workshop</link>
+						<link class="encounter" recordname="encounter.id-00015">the retting room</link>
+						<link class="encounter" recordname="encounter.id-00016">the cenot</link>
+						<link class="imagewindow" recordname="image.id-00009">Map: farm</link>
+						<link class="imagewindow" recordname="image.id-00008">Map: lair</link>
+					</linklist>
+				</text>
+			</id-00012>
+			<id-00013>
+				<locked type="number">1</locked>
+				<name type="string">2.2.a Farmhouse</name>
+				<text type="formattedtext">
+					<h>Contents</h>
+					<linklist>
+						<link class="battle" recordname="battle.id-00005">Giant Centipede</link>
+						<link class="treasureparcel" recordname="treasureparcels.id-00001">Footlocker parcel</link>
+					</linklist>
+				</text>
+			</id-00013>
+			<id-00014>
+				<locked type="number">1</locked>
+				<name type="string">2.2.b Workshop</name>
+				<text type="formattedtext">
+					<h>Contents</h>
+					<linklist>
+						<link class="battle" recordname="battle.id-00006">Giant Poisonous Snake</link>
+						<link class="reference_equipment" recordname="reference.equipmentdata.tinker_stools@DD PHB Deluxe">Tinker's Tools</link>
+						<link class="reference_equipment" recordname="reference.equipmentdata.weaver_stools@DD PHB Deluxe">Weaver's Tools</link>
+					</linklist>
+					<h>The Retting Tank</h>
+					<p>There is a small retting tank about 2'x4' with a device in the center of one of the wider sides. The tank is full of rancid, spoiled water. The device has a piece of blue quartz magically suspended inside a small cage of brass rings. The entire device is no more than 4&#34; in size. Character succeeding at a DC 12 Widom (Perception) check, will notice that the coloring in the stone has a gradient; as if the darker shades had settled to the bottom of the stone. Anyone who turns the stone will notice a hour-glass like effect as the shades swirl. At the same time, the water in the tank will drain out and then refill once the gem is fully rotated. Continuing to manipulate the gem, will continute to exchange the water in the tank. Against any inspection, there is no clear way to tell how it works; there are no pipes and drainage doesn't appear to go anywhere. When the light blue is on top, the tank is full; when the dark blue is up, the tank is empty.</p>
+				</text>
+			</id-00014>
+			<id-00015>
+				<locked type="number">1</locked>
+				<name type="string">2.2.c Retting Room</name>
+				<text type="formattedtext">
+					<p>This is little more than a shed at the north end of the cenot, but the eastern side of the room is currently flooded. On the western wall is a blue quartz set in a cage of brass rings. Rotating the stone will exchange the water in the cenot in the same way that the tank in the workshop does. As the cenot drains, the water in the western corner of the room does as well to reveal a downward-sloping ramp that leads into the cavern cenot itself.</p>
+				</text>
+			</id-00015>
+			<id-00016>
+				<locked type="number">1</locked>
+				<name type="string">2.2.d Cenot</name>
+				<text type="formattedtext">
+					<p>Below the flax farm is a cavern, usually flooded. In the center of the large cavern, open to the sky through the hole above, is a large retting tank measuring 15'x'15'3' with a heavy stone lid. When the cenot is flooded, and the lid in place, this cache is all but invisible. No longer a farm, this is where Xeriel hides his bag of holding with his other loot. Xerial himself usually sleeps on top of the lid with the chamber flooded but will waken if anything disturbs the water (he will wake, alert if the chamber is drained via the controls in the retting room (see 2.2.c)).</p>
+					<p>Once awake, Xerial will use his lair ability to cast darkness over the retting tank (and probably himself) and will attempt to sneak into the side tunnels where he will try to identify and lure the players.</p>
+					<h>Playing Xeriel</h>
+					<p>The black dragon is young and inexperienced, but he still enjoys toying with his food. If the players can draw him out of the cenot to fight, he will use his ariel advantage to wait out his breath weapon until he can knock players into the flooded cenot where he will grapple and drown them one by one.</p>
+					<p>If they drain the cenot and face him there, he will use his darkness ability to continually obscure side tunnels allowing him to weave around the cavern unseen. This added to the echoing effect of the chamber means that Xerial can effectively fly around, throwing his voice (requiring a bluff check, though Xerial has advantage because of the acoustics and because it's his lair). He will try to get the characters to split up and then pick them off with hit and run attacks as he strikes from the darkness and drives them with biting swarms of flies or reaching out to them from some of the remaining pools in the room.</p>
+					<p>If he feels that his defeat is imminent, he will attempt to flee, but otherwise fights with his full commitment. He enjoys talking to his prey as he likes what fear does to the taste of his dinner.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00007">Xeriel, the Black Dragon</link>
+						<link class="imagewindow" recordname="image.id-00008">Map</link>
+						<link class="treasureparcel" recordname="treasureparcels.id-00003">Treasure</link>
+					</linklist>
+				</text>
+			</id-00016>
+		</category>
+	</encounter>
+	<feat>
+	</feat>
+	<forge>
+		<magicitem>
+			<baseitems>
+				<id-00001>
+					<ac type="number">12</ac>
+					<bonus type="number">0</bonus>
+					<cost type="string">45 gp</cost>
+					<description type="formattedtext">
+						<p>Made from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.</p>
+						<p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>
+					</description>
+					<dexbonus type="string">Yes</dexbonus>
+					<itemtype type="string">armor</itemtype>
+					<locked type="number">1</locked>
+					<name type="string">Studded Leather</name>
+					<refclass type="string">reference_armor</refclass>
+					<stealth type="string">-</stealth>
+					<strength type="string">-</strength>
+					<subtype type="string">Light Armor</subtype>
+					<type type="string">Armor</type>
+					<weight type="number">13</weight>
+				</id-00001>
+			</baseitems>
+			<templates>
+				<id-00005>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<cost type="string">501 - 5,000 gp</cost>
+					<description type="formattedtext">
+						<h>Description</h>
+						<p>While wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor.</p>
+					</description>
+					<istemplate type="number">1</istemplate>
+					<itemtype type="string">marmor</itemtype>
+					<locked type="number">1</locked>
+					<name type="string">Glamoured Studded Leather</name>
+					<nonid_name type="string">Studded Leather Armor</nonid_name>
+					<nonidentified type="string">Made from supple leather and flecked with soft metals this comfortable looking armor speaks of quality in every stitch.</nonidentified>
+					<rarity type="string">Rare</rarity>
+					<refclass type="string">itemtemplate</refclass>
+					<subtype type="string">Studded Leather</subtype>
+					<type type="string">Armor</type>
+					<weight type="number">0</weight>
+				</id-00005>
+				<id-00006>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<cost type="string">501 - 5,000 gp</cost>
+					<description type="formattedtext">
+						<h>Description</h>
+						<linklist>
+							<link class="imagewindow" recordname="reference.imagedata.img_cloak_of_displacement_jpg@*"><b>Image: </b></link>Cloak of Displacement</linklist>
+						<p>While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while you are incapacitated, restrained, or otherwise unable to move.</p>
+					</description>
+					<istemplate type="number">1</istemplate>
+					<itemtype type="string">mwondrousitem</itemtype>
+					<locked type="number">1</locked>
+					<name type="string">Cloak of Displacement</name>
+					<nonid_name type="string">Cloak</nonid_name>
+					<nonidentified type="string">Made of wool and very fine leather this strangely shaped cloak seems to blur slightly if you look at it for too long.</nonidentified>
+					<rarity type="string">Rare (Requires Attunement)</rarity>
+					<refclass type="string">itemtemplate</refclass>
+					<type type="string">Wondrous Item</type>
+					<weight type="number">0</weight>
+				</id-00006>
+			</templates>
+		</magicitem>
+	</forge>
 	<image>
+		<id-00001>
+			<public />
+			<image type="image">
+				<bitmap>images/three-rivers.png</bitmap>
+				<shortcuts>
+					<shortcut>
+						<x>2778</x>
+						<y>686</y>
+						<class>encounter</class>
+						<recordname>encounter.id-00002</recordname>
+					</shortcut>
+				</shortcuts>
+			</image>
+			<name type="string">three-rivers</name>
+		</id-00001>
+		<id-00002>
+			<image type="image">
+				<bitmap>images/kobold-camp-small.png</bitmap>
+				<gridsize>64</gridsize>
+				<gridoffset>1,0</gridoffset>
+				<gridsnap>on</gridsnap>
+			</image>
+			<locked type="number">1</locked>
+			<name type="string">kobold-camp-small-ground</name>
+		</id-00002>
+		<id-00003>
+			<image type="image">
+				<bitmap>images/kobold-camp-small-upper.png</bitmap>
+			</image>
+			<name type="string">kobold-camp-small-upper</name>
+		</id-00003>
+		<id-00004>
+			<image type="image">
+				<bitmap>images/forest-a.png</bitmap>
+			</image>
+			<name type="string">forest-a</name>
+		</id-00004>
+		<id-00005>
+			<image type="image">
+				<bitmap>images/forest-b.png</bitmap>
+			</image>
+			<name type="string">forest-b</name>
+		</id-00005>
+		<id-00006>
+			<image type="image">
+				<bitmap>images/forest-river.png</bitmap>
+			</image>
+			<name type="string">forest-river</name>
+		</id-00006>
+		<id-00007>
+			<image type="image">
+				<bitmap>images/jungle-a.png</bitmap>
+				<gridsize>64</gridsize>
+				<gridoffset>1,0</gridoffset>
+				<gridsnap>on</gridsnap>
+			</image>
+			<name type="string">jungle-a</name>
+		</id-00007>
+		<id-00008>
+			<image type="image">
+				<bitmap>images/xeriels_cenot_lair.png</bitmap>
+				<mask>maskedimages/1585438144.png</mask>
+				<gridsize>64</gridsize>
+				<gridoffset>0,30</gridoffset>
+				<gridsnap>on</gridsnap>
+				<shortcuts>
+					<shortcut>
+						<x>858</x>
+						<y>699</y>
+						<class>encounter</class>
+						<recordname>encounter.id-00016</recordname>
+					</shortcut>
+				</shortcuts>
+				<tokens>
+					<idcounter>1</idcounter>
+					<scalelock>1.95313</scalelock>
+				</tokens>
+			</image>
+			<name type="string">xeriels_cenot_lair</name>
+		</id-00008>
+		<id-00009>
+			<image type="image">
+				<bitmap>images/xeriels_cenot_farm.png</bitmap>
+				<mask>maskedimages/1585437932.png</mask>
+				<gridsize>64</gridsize>
+				<gridoffset>0,62</gridoffset>
+				<gridsnap>on</gridsnap>
+				<shortcuts>
+					<shortcut>
+						<x>858</x>
+						<y>415</y>
+						<class>encounter</class>
+						<recordname>encounter.id-00015</recordname>
+					</shortcut>
+					<shortcut>
+						<x>1172</x>
+						<y>1697</y>
+						<class>encounter</class>
+						<recordname>encounter.id-00013</recordname>
+					</shortcut>
+					<shortcut>
+						<x>363</x>
+						<y>1722</y>
+						<class>encounter</class>
+						<recordname>encounter.id-00014</recordname>
+					</shortcut>
+				</shortcuts>
+				<tokens>
+					<idcounter>2</idcounter>
+					<scalelock>1.95313</scalelock>
+				</tokens>
+			</image>
+			<isidentified type="number">0</isidentified>
+			<locked type="number">1</locked>
+			<name type="string">xeriels_cenot_farm</name>
+			<nonid_name type="string">Overgrown Farm</nonid_name>
+		</id-00009>
 	</image>
+	<item>
+		<id-00001>
+			<ac type="number">0</ac>
+			<bonus type="number">0</bonus>
+			<description type="formattedtext">
+				<p>Contains written notes on the process of flax farming and designs for ingenious little device to exchange the water in retting tanks.</p>
+			</description>
+			<locked type="number">1</locked>
+			<name type="string">Farmer's Notebook</name>
+			<weight type="number">0</weight>
+		</id-00001>
+	</item>
+	<itemtemplate>
+	</itemtemplate>
 	<languages>
 		<public />
 		<id-00001>
@@ -139,7 +2529,255 @@
 	<modifiers>
 		<public />
 	</modifiers>
+	<notes>
+		<id-00001>
+			<name type="string">encounter pieces</name>
+			<text type="formattedtext">
+				<linklist>
+					<link class="npc" recordname="reference.npcdata.diseasedgiantrat@DD MM Monster Manual">Diseased Giant Rat</link>
+					<link class="npc" recordname="reference.npcdata.giantrat@DD MM Monster Manual">Giant Rat</link>
+					<link class="npc" recordname="reference.npcdata.poisonoussnake@DD MM Monster Manual">Poisonous Snake</link>
+					<link class="npc" recordname="reference.npcdata.tribalwarrior@DD MM Monster Manual">Tribal Warrior</link>
+					<link class="npc" recordname="reference.npcdata.stirge@DD MM Monster Manual">Stirge</link>
+				</linklist>
+				<p></p>
+				<linklist>
+					<link class="npc" recordname="reference.npcdata.axebeak@DD MM Monster Manual">Axe Beak</link>
+					<link class="npc" recordname="reference.npcdata.boar@DD MM Monster Manual">Boar</link>
+					<link class="npc" recordname="reference.npcdata.constrictorsnake@DD MM Monster Manual">Constrictor Snake</link>
+					<link class="npc" recordname="reference.npcdata.giantcentipede@DD MM Monster Manual">Giant Centipede</link>
+					<link class="npc" recordname="reference.npcdata.giantlizard@DD MM Monster Manual">Giant Lizard</link>
+					<link class="npc" recordname="reference.npcdata.giantpoisonoussnake@DD MM Monster Manual">Giant Poisonous Snake</link>
+					<link class="npc" recordname="reference.npcdata.giantbadger@DD MM Monster Manual">Giant Badger</link>
+					<link class="npc" recordname="reference.npcdata.panther@DD PHB Deluxe">Panther</link>
+					<link class="npc" recordname="reference.npcdata.sprite@DD PHB Deluxe">Sprite</link>
+					<link class="npc" recordname="reference.npcdata.pseudodragon@DD MM Monster Manual">Pseudodragon</link>
+					<link class="npc" recordname="reference.npcdata.pixie@DD MM Monster Manual">Pixie</link>
+					<link class="npc" recordname="reference.npcdata.giantwasp@DD MM Monster Manual">Giant Wasp</link>
+				</linklist>
+				<p></p>
+				<linklist>
+					<link class="npc" recordname="reference.npcdata.blackbear@DD PHB Deluxe">Black Bear</link>
+					<link class="npc" recordname="reference.npcdata.ape@DD MM Monster Manual">Ape</link>
+					<link class="npc" recordname="reference.npcdata.crocodile@DD MM Monster Manual">Crocodile</link>
+					<link class="npc" recordname="reference.npcdata.swarmofinsects@DD MM Monster Manual">Swarm of Insects</link>
+				</linklist>
+				<p></p>
+				<linklist>
+					<link class="npc" recordname="reference.npcdata.brownbear@DD MM Monster Manual">Brown Bear</link>
+					<link class="npc" recordname="reference.npcdata.dryad@DD MM Monster Manual">Dryad</link>
+					<link class="npc" recordname="reference.npcdata.faeriedragon_orange_@DD MM Monster Manual">Faerie Dragon (orange)</link>
+					<link class="npc" recordname="reference.npcdata.faeriedragon_red_@DD MM Monster Manual">Faerie Dragon (red)</link>
+					<link class="npc" recordname="reference.npcdata.faeriedragon_yellow_@DD MM Monster Manual">Faerie Dragon (yellow)</link>
+					<link class="npc" recordname="reference.npcdata.gianteagle@DD PHB Deluxe">Giant Eagle</link>
+					<link class="npc" recordname="reference.npcdata.imp@DD PHB Deluxe">Imp</link>
+					<link class="npc" recordname="reference.npcdata.tiger@DD MM Monster Manual">Tiger</link>
+				</linklist>
+			</text>
+		</id-00001>
+		<id-00002>
+			<holder name="Baird" owner="true" />
+			<locked type="number">1</locked>
+			<name type="string">Abior (pop. ~200)</name>
+			<text type="formattedtext">
+				<p>A couple generations ago, Jargo, a skilled half-elf hunter, transformed a group of hunter gatherers into a stable society.</p>
+				<p>He is old now, but still leads the people. He governs through those he calls The Trusted. These close compatriots keep the town and area around it safe.</p>
+				<p>The settlement has attracted nomads, and those who visit tend to want to stay. This is because the greatest threat is not bandits or goblins, but the jungle itself. So any settled area is highly attractive.</p>
+			</text>
+		</id-00002>
+	</notes>
 	<npc>
+		<category name="Jumanji Adventures: The Huntsmen" baseicon="0" decalicon="0">
+			<id-00002>
+				<abilities>
+					<charisma>
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">3</bonus>
+						<score type="number">16</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">14</ac>
+				<actext type="string">leather armor, defense style</actext>
+				<actions>
+					<id-00001>
+						<name type="string">Spear</name>
+					</id-00001>
+					<id-00002>
+						<name type="string">Longsword</name>
+					</id-00002>
+					<id-00003>
+						<name type="string">Longbow</name>
+					</id-00003>
+				</actions>
+				<alignment type="string">lawful neutral</alignment>
+				<conditionimmunities type="string">sleep, charm</conditionimmunities>
+				<cr type="string">1/8</cr>
+				<hd type="string">(1d10 + 7)</hd>
+				<hp type="number">12</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<languages type="string">common, elven, gnome, dwarven</languages>
+				<legendaryactions>
+				</legendaryactions>
+				<locked type="number">1</locked>
+				<name type="string">Jerros Lorec</name>
+				<nonid_name type="string">Craftsman</nonid_name>
+				<reactions>
+				</reactions>
+				<savingthrows type="string">Strength +2, Dexterity +3</savingthrows>
+				<senses type="string">darkvision 60 ft.</senses>
+				<size type="string">Medium</size>
+				<skills type="string">Nature +4, Stealth +3, Survival +5</skills>
+				<speed type="string">30 ft.</speed>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token"></token>
+				<traits>
+					<id-00001>
+						<desc type="string">Smithing tools, Leatherworker's tools, Woodcarver's tools</desc>
+						<name type="string">Tool Proficiencies</name>
+					</id-00001>
+				</traits>
+				<type type="string">humanoid (half-elf)</type>
+				<xp type="number">25</xp>
+			</id-00002>
+			<id-00003>
+				<abilities>
+					<charisma>
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">3</bonus>
+						<score type="number">16</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">16</ac>
+				<actext type="string">(chain mail, shield)</actext>
+				<actions>
+					<id-00001>
+						<name type="string">Mace</name>
+					</id-00001>
+					<id-00002>
+						<name type="string">Light Crossbow</name>
+					</id-00002>
+				</actions>
+				<alignment type="string">lawful neutral</alignment>
+				<conditionimmunities type="string">sleep, charm</conditionimmunities>
+				<cr type="string">1/8</cr>
+				<hd type="string">(1d8 + 16)</hd>
+				<hp type="number">20</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<languages type="string">common, elven, gnome, dwarven</languages>
+				<legendaryactions>
+				</legendaryactions>
+				<locked type="number">1</locked>
+				<name type="string">Talia Lorec</name>
+				<reactions>
+				</reactions>
+				<savingthrows type="string">Wisdom, Charisma</savingthrows>
+				<senses type="string">darkvision 60 ft.</senses>
+				<size type="string">Medium</size>
+				<skills type="string">Insight +5, Medicine +5, Nature +2</skills>
+				<speed type="string">30 ft.</speed>
+				<spells>
+					<id-00003>
+						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V, S\nDuration: Concentration, up to 1 minute\nRange: Touch\n\nYou touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.</desc>
+						<name type="string">Guidance - Cantrip</name>
+					</id-00003>
+					<id-00005>
+						<desc type="string">Level: 0\nCasting Time: 1 minute\nComponents: V, S, M (two lodestones)\nDuration: Instantaneous\nRange: Touch\n\nThis spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it. leaving no trace of the former damage.\n\nThis spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.</desc>
+						<name type="string">Mending - Cantrip</name>
+					</id-00005>
+					<id-00006>
+						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nRange: Touch\n\nYou touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs.</desc>
+						<name type="string">Spare the Dying - Cantrip</name>
+					</id-00006>
+					<id-00007>
+						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V, S, M (a sprinkling of holy water)\nDuration: Concentration, up to 1 minute\nRange: 30 feet\n\nYou bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.\n\nAt Higher Levels. \n\nWhen you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</desc>
+						<name type="string">Bless - 1st level</name>
+					</id-00007>
+					<id-00008>
+						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nRange: Touch\n\nA creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.\n\nAt Higher Levels. \n\nWhen you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</desc>
+						<name type="string">Cure Wounds - 1st level</name>
+					</id-00008>
+					<id-00009>
+						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V, S, M (a yew leaf)\nDuration: Concentration, up to 10 minutes\nRange: Self\n\nFor the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</desc>
+						<name type="string">Detect Poison and Disease - 1st level</name>
+					</id-00009>
+					<id-00010>
+						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V, S, M (a drop of water if creating water or a few grains of sand if destroying it)\nDuration: Instantaneous\nRange: 30 feet\n\nYou either create or destroy water. Create Water. You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area.\n\nDestroy Water. \n\nYou destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot cube within range.At Higher Levels. \n\nWhen you cast this spell using a spell slot of 2nd level or higher, you create or destroy 10 additional gallons of water, or the size of the cube increases by 5 feet, for each slot level above 1st.</desc>
+						<name type="string">Create or Destroy Water - 1st level</name>
+					</id-00010>
+				</spells>
+				<spellslots>
+					<level1 type="number">2</level1>
+					<level2 type="number">0</level2>
+					<level3 type="number">0</level3>
+					<level4 type="number">0</level4>
+					<level5 type="number">0</level5>
+					<level6 type="number">0</level6>
+					<level7 type="number">0</level7>
+					<level8 type="number">0</level8>
+					<level9 type="number">0</level9>
+				</spellslots>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token"></token>
+				<traits>
+					<id-00001>
+						<desc type="string">Alchemist's Tools, Cartographer's Tools, Tinkerer's Tools</desc>
+						<name type="string">Tool Proficiencies</name>
+					</id-00001>
+				</traits>
+				<type type="string">humanoid (half-elf)</type>
+				<xp type="number">25</xp>
+			</id-00003>
+		</category>
 		<category name="Jumanji Beastiary" baseicon="0" decalicon="0">
 			<id-00001>
 				<abilities>
@@ -185,12 +2823,451 @@
 				<spells>
 				</spells>
 				<text type="formattedtext">
+					<p></p>
 				</text>
 				<token type="token"></token>
 				<traits>
 				</traits>
 				<xp type="number">0</xp>
 			</id-00001>
+			<id-00004>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">0</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Anyone stepping on the lid of the trap triggers it, causing everyone on top of the lid to fall inside. The pit below is 20 ft. deep and falling creatures suffer 1d6 bludgeoning damage.</desc>
+						<name type="string">Triggered</name>
+					</id-00001>
+					<id-00002>
+						<desc type="string">The floor of the pit is covered with a thick carpet of fungal spores that release when the characters fall in filling the small, enclosed chamber with a cloud of fungal spores. Characters entering or starting their turn in the pit must succeed at a DC 11 Constitution saving throw or take 5 (1d10) poison damage and become poisoned. On a successful save, deal half damage and the target is not poisoned.</desc>
+						<name type="string">Spore Cloud</name>
+					</id-00002>
+				</actions>
+				<alignment type="string">unaligned</alignment>
+				<hp type="number">0</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<legendaryactions>
+				</legendaryactions>
+				<locked type="number">1</locked>
+				<name type="string">Poisoned Pit Trap</name>
+				<reactions>
+				</reactions>
+				<size type="string">Huge</size>
+				<speed type="string">0 ft.</speed>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token"></token>
+				<traits>
+					<id-00001>
+						<desc type="string">Characters can notice the trap with a successful DC 14 Wisdom (Perception) check.</desc>
+						<name type="string">Detection</name>
+					</id-00001>
+					<id-00002>
+						<desc type="string">Once the trap is sprung, a mechanism on the lid closes the pit again, preventing prey from escaping. Disabling the spring-loaded lock requires a DC 14 Dexterity (Disable Device) check.</desc>
+						<name type="string">Spring Loaded Lid</name>
+					</id-00002>
+					<id-00003>
+						<desc type="string">There is no light in the pit and the lid, once closed, seals it completely plunging the pit into complete darkness. The 20 ft. walls are comprised of packed dirt and require a DC 16 Strength (Athletics) check to climb.</desc>
+						<name type="string">Pit Features</name>
+					</id-00003>
+				</traits>
+				<type type="string">Trap</type>
+				<xp type="number">0</xp>
+			</id-00004>
+			<id-00005>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">0</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">When the trap is triggered, the unstable ceiling collapses. Any creature in the area beneath the unstable section must succeed on a DC 15 Dexterity saving throw, taking 22 (4d10) bludgeoning damage on a failed save, or half as much damage on a successful one. Once the trap is triggered, the floor of the area is filled with rubble and becomes difficult terrain.</desc>
+						<name type="string">Triggered</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">unaligned</alignment>
+				<cr type="string">0</cr>
+				<hd type="string">(1d4)</hd>
+				<hp type="number">0</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+				</legendaryactions>
+				<locked type="number">1</locked>
+				<name type="string">Collapsing Roof</name>
+				<reactions>
+				</reactions>
+				<senses type="string">-</senses>
+				<size type="string">Large</size>
+				<skills type="string">passive Perception 0</skills>
+				<speed type="string">0 ft.</speed>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+					<h>Collapsing Roof</h>
+					<p>This trap uses a trip wire to collapse the supports keeping an unstable section of a ceiling in place.</p>
+					<p>The trip wire is 3 inches off the ground and stretches between two support beams. The DC to spot the trip wire is 10. A successful DC 15 Dexterity check using thieves' tools disables the trip wire harmlessly. A character without thieves' tools can attempt this check with disadvantage using any edged weapon or edged tool. On a failed check, the trap triggers.</p>
+					<p>Anyone who inspects the beams can easily determine that they are merely wedged in place. As an action, a character can knock over a beam, causing the trap to trigger.</p>
+				</text>
+				<token type="token">tokens/C.png@DD Dungeon Masters Guide</token>
+				<traits>
+					<id-00001>
+						<desc type="string">The trip wire is 3 inches off the ground and stretches between two support beams. The DC to spot the trip wire is 10.</desc>
+						<name type="string">Detection</name>
+					</id-00001>
+					<id-00002>
+						<desc type="string">A successful DC 15 Dexterity check using thieves' tools disables the trip wire harmlessly. A character without thieves' tools can attempt this check with disadvantage using any edged weapon or edged tool. On a failed check, the trap triggers.</desc>
+						<name type="string">Disable</name>
+					</id-00002>
+				</traits>
+				<type type="string">Trap</type>
+				<xp type="number">0</xp>
+			</id-00005>
+			<id-00006>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">0</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">The trap activates when more than 20 pounds of weight is placed on the pressure plate, releasing four darts. Each dart makes a ranged weapon attack +8 to hit; against a random target within 10 feet of the pressure plate (vision is irrelevant to this attack roll). (If there are no targets in the area, the darts don't hit anything.) A target that is hit takes 2 (1d4) piercing damage and must succeed on a DC 15 Constitution saving throw, taking 11 (2d10) poison damage on a failed save, or half as much damage on a successful one.</desc>
+						<name type="string">Triggered</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">unaligned</alignment>
+				<cr type="string">0</cr>
+				<hd type="string">(1d4)</hd>
+				<hp type="number">0</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+				</legendaryactions>
+				<locked type="number">1</locked>
+				<name type="string">Poison Dart Trap</name>
+				<reactions>
+				</reactions>
+				<senses type="string">-</senses>
+				<size type="string">Tiny</size>
+				<skills type="string">passive Perception 0</skills>
+				<speed type="string">0 ft.</speed>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+					<h>Poison Dart Trap</h>
+					<p>When a creature steps on a hidden pressure plate, poison-tipped darts shoot from spring-loaded or pressurized tubes cleverly embedded in the surrounding walls. An area might include multiple pressure plates, each one rigged to its own set of darts.</p>
+					<p>The tiny holes in the walls are obscured by dust and cobwebs, or cleverly hidden amid bas-reliefs, murals, or frescoes that adorn the walls.</p>
+				</text>
+				<token type="token">tokens/P.png@DD Dungeon Masters Guide</token>
+				<traits>
+					<id-00001>
+						<desc type="string">The tiny holes in the walls are obscured by dust and cobwebs, or cleverly hidden amid bas-reliefs, murals, or frescoes that adorn the walls. The DC to spot them is 15. With a successful DC 15 Intelligence (Investigation) check, a character can deduce the presence of the pressure plate from variations in the mortar and stone used to create it, compared to the surrounding floor.</desc>
+						<name type="string">Detection</name>
+					</id-00001>
+					<id-00002>
+						<desc type="string">Wedging an iron spike or other object under the pressure plate prevents the trap from activating. Stuffing the holes with cloth or wax prevents the darts contained within from launching.</desc>
+						<name type="string">Disable</name>
+					</id-00002>
+				</traits>
+				<type type="string">Trap</type>
+				<xp type="number">0</xp>
+			</id-00006>
+			<id-00007>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">10</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">When the trap is triggered, the net is released, covering a 10-foot-square area. A target in the area that fails a DC 10 Dexterity saving throw is restrained and captured by the net, suspended 5ft. over the ground. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. The net has AC 10 and 20 hit points. Dealing 5 slashing damage to the net (AC 10) destroys a 5-foot-square section of it, freeing any creature trapped in that section.</desc>
+						<name type="string">Triggered</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">unaligned</alignment>
+				<cr type="string">0</cr>
+				<hd type="string">(4d10)</hd>
+				<hp type="number">20</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+				</legendaryactions>
+				<locked type="number">1</locked>
+				<name type="string">Suspended Net</name>
+				<reactions>
+				</reactions>
+				<senses type="string">-</senses>
+				<size type="string">Large</size>
+				<skills type="string">passive Perception 0</skills>
+				<speed type="string">0 ft.</speed>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+					<h>Falling Net</h>
+					<p>This trap uses a trip wire to release a net suspended from the ceiling.</p>
+					<p>The trip wire is 3 inches off the ground and stretches between two columns or trees. The net is hidden by cobwebs or foliage. The DC to spot the trip wire and net is 10. A successful DC 15 Dexterity check using thieves' tools breaks the trip wire harmlessly. A character without thieves' tools can attempt this check with disadvantage using any edged weapon or edged tool. On a failed check, the trap triggers.</p>
+				</text>
+				<token type="token">tokens/F.png@DD Dungeon Masters Guide</token>
+				<traits>
+					<id-00001>
+						<desc type="string">The trip wire is 3 inches off the ground and stretches between two columns or trees. The net is hidden by cobwebs or foliage. The DC to spot the trip wire and net is 10.</desc>
+						<name type="string">Detection</name>
+					</id-00001>
+					<id-00002>
+						<desc type="string">A successful DC 15 Dexterity check using thieves' tools breaks the trip wire harmlessly. A character without thieves' tools can attempt this check with disadvantage using any edged weapon or edged tool. On a failed check, the trap triggers.</desc>
+						<name type="string">Disable</name>
+					</id-00002>
+				</traits>
+				<type type="string">Trap</type>
+				<xp type="number">0</xp>
+			</id-00007>
+			<id-00008>
+				<abilities>
+					<charisma>
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">2</bonus>
+						<score type="number">15</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">11</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">17</ac>
+				<actext type="string">(natural armor)</actext>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage + 2 (1d4) acid damage.</desc>
+						<name type="string">Bite</name>
+					</id-00001>
+					<id-00002>
+						<desc type="string">The dragon exhales acid in a 15-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one.</desc>
+						<name type="string">Acid Breath (Recharge 5-6)</name>
+					</id-00002>
+				</actions>
+				<alignment type="string">chaotic evil</alignment>
+				<cr type="string">2</cr>
+				<damageimmunities type="string">acid</damageimmunities>
+				<hd type="string">(6d8 + 6)</hd>
+				<hp type="number">33</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<languages type="string">Draconic</languages>
+				<legendaryactions>
+				</legendaryactions>
+				<locked type="number">1</locked>
+				<name type="string">Xeriel</name>
+				<nonid_name type="string">Black Dragon Wyrmling</nonid_name>
+				<reactions>
+				</reactions>
+				<savingthrows type="string">Dex +4, Con +3, Wis +2, Cha +3</savingthrows>
+				<senses type="string">blindsight 10 ft., dark vision 60 ft., passive Perception 14</senses>
+				<size type="string">Medium</size>
+				<skills type="string">Perception +4, Stealth +4</skills>
+				<speed type="string">30 ft., fly 60 ft., swim 30 ft.</speed>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+					<h>Black Dragon</h>
+					<linklist>
+						<link class="imagewindow" recordname="reference.imagedata.img_blackdragon_jpg@*"><b>Image: </b></link>Black Dragon</linklist>
+					<p>The most evil-tempered and vile of the chromatic dragons, black dragons collect the wreckage and treasures of fallen peoples. These dragons loathe seeing the weak prosper and revel in the collapse of humanoid kingdoms. They make their homes in fetid swamps and crumbling ruins where kingdoms once stood.</p>
+					<p>With deep-socketed eyes and broad nasal openings, a black dragon's face resembles a skull. Its curving, segmented horns are bone-colored near the base and darken to dead black at the tips. As a black dragon ages, the flesh around its horns and cheekbones deteriorates as though eaten by acid, leaving thin layers of hide that enhance its skeletal appearance. A black dragon's head is marked by spikes and horns. Its tongue is flat with a forked tip, drooling slime whose acidic scent adds to the dragon's reek of rotting vegetation and foul water.</p>
+					<p>When it hatches, a black dragon has glossy black scale. As it ages, its scales become thicker and duller, helping it blend in to the marshes and blasted ruins that are its home.</p>
+					<p><b><i>Brutal and Cruel. </i></b>All chromatic dragons are evil, but black dragons stand apart for their sadistic nature. A black dragon lives to watch its prey beg for mercy, and will often offer the illusion of respite or escape before finishing off its enemies.</p>
+					<p>A black dragon strikes at its weakest enemies first, ensuring a quick and brutal victory, which bolsters its ego as it terrifies its remaining foes. On the verge of defeat, a black dragon does anything it can to save itself, but it accepts death before allowing any other creature to claim mastery over it.</p>
+					<p><b><i>Foes and Servants. </i></b>Black dragons hate and fear other dragons. They spy on draconic rivals from afar, looking for opportunities to slay weaker dragons and avoid stronger ones. If a stronger dragon threatens it, a black dragon abandons its lair and seeks out new territory.</p>
+					<p>Evil lizardfolk venerate and serve black dragons, raiding humanoid settlements for treasure and food to give as tribute and building crude draconic effigies along the borders of their dragon master's domain.</p>
+					<p>A black dragon's malevolent influence might also cause the spontaneous creation of evil shambling mounds that seek out and slay good creatures approaching the dragon's lair.</p>
+					<p>Kobolds infest the lairs of many black dragons like vermin. They become as cruel as their dark masters, often torturing and weakening captives with centipede bites and scorpion stings before delivering them to sate the dragon's hunger.</p>
+					<p><b><i>Wealth of the Ancients. </i></b>Black dragons hoard the treasures and magic items of crumbled empires and conquered kingdoms to remind themselves of their greatness. The more civilizations a dragon outlasts, the more entitled it feels to claim the wealth of current civilizations for itself.</p>
+					<h>A Black Dragon's Lair</h>
+					<p>Black dragons dwell in swamps on the frayed edges of civilization. A black dragon's lair is a dismal cave, grotto, or ruin that is at least partially flooded, providing pools where the dragon rests, and where its victims can ferment. The lair is littered with the acid-pitted bones of previous victims and the fly-ridden carcasses of fresh kills, watched over by crumbling statues. Centipedes, scorpions, and snakes infest the lair, which is filled with the stench of death and decay.</p>
+					<h>Regional Effects</h>
+					<p>The region containing a legendary black dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:</p>
+					<list>
+						<li>The land within 6 miles of the lair takes twice as long as normal to traverse, since the plants grow thick and twisted, and the swamps are thick with reeking mud.</li>
+						<li>Water sources within 1 mile of the lair are supernaturally fouled. Enemies of the dragon that drink such water regurgitate it within minutes.</li>
+						<li>Fog lightly obscures the land within 6 miles of the lair.</li>
+					</list>
+					<p>If the dragon dies, vegetation remains as it has grown, but other effects fade over 1d10 days.</p>
+					<h>Dragons</h>
+					<p>True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.</p>
+					<p>Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.</p>
+					<p>Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.</p>
+					<p>True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.</p>
+					<p><b>Dragon Age Categories</b></p>
+					<table>
+						<tr>
+							<td><b>Category</b></td>
+							<td><b>Size</b></td>
+							<td><b>Age Range</b></td>
+						</tr>
+						<tr>
+							<td>Wyrmling</td>
+							<td>Medium</td>
+							<td>5 years or less</td>
+						</tr>
+						<tr>
+							<td>Young</td>
+							<td>Large</td>
+							<td>6-100 years</td>
+						</tr>
+						<tr>
+							<td>Adult</td>
+							<td>Huge</td>
+							<td>101-800 years</td>
+						</tr>
+						<tr>
+							<td>Ancient</td>
+							<td>Gargantuan</td>
+							<td>801 years or more</td>
+						</tr>
+					</table>
+					<h>Chromatic Dragons</h>
+					<p>The black, blue, green, red, and white dragons represent the evil side of dragonkind. Aggressive, gluttonous, and vain, chromatic dragons are dark sages and powerful tyrants feared by all creatures-including each other.</p>
+					<p><b><i>Driven by Greed. </i></b>Chromatic dragons lust after treasure, and this greed colors their every scheme and plot. They believe that the world's wealth belongs to them by right, and a chromatic dragon seizes that wealth without regard for the humanoids and other creatures that have &#34;stolen&#34; it. With its piles of coins, gleaming gems, and magic items, a dragon's hoard is the stuff of legend. However, chromatic dragons have no interest in commerce, amassing wealth for no other reason than to have it.</p>
+					<p><b><i>Creatures of Ego. </i></b>Chromatic dragons are united by their sense of superiority, believing themselves the most powerful and worthy of all mortal creatures. When they interact with other creatures, it is only to further their own interests. They believe in their innate right to rule, and this belief is the cornerstone of every chromatic dragon's personality and worldview. Trying to humble a chromatic dragon is like trying to convince the wind to stop blowing. To these creatures, humanoids are animals, fit to serve as prey or beasts of burden, and wholly unworthy of respect.</p>
+					<p><b><i>Dangerous Lairs. </i></b>A dragon's lair serves as the seat of its power and a vault for its treasure. With its innate toughness and tolerance for severe environmental effects, a dragon selects or builds a lair not for shelter but for defense, favoring multiple entrances and exits, and security for its hoard.</p>
+					<p>Most chromatic dragon lairs are hidden in dangerous and remote locations to prevent all but the most audacious mortals from reaching them. A black dragon might lair in the heart of a vast swamp, while a red dragon might claim the caldera of an active volcano. In addition to the natural defenses of their lairs, powerful chromatic dragons use magical guardians, traps, and subservient creatures to protect their treasures.</p>
+					<p><b><i>Queen of Evil Dragons. </i></b>Tiamat the Dragon Queen is the chief deity of evil dragonkind. She dwells on Avernus, the first layer of the Nine Hells. As a lesser god, Tiamat has the power to grant spells to her worshipers, though she is loath to share her power. She epitomizes the avarice of evil dragons, believing that the multiverse and all its treasures will one day be hers and hers alone.</p>
+					<p>Tiamat is a gigantic dragon whose five heads reflect the forms of the chromatic dragons that worship her-black, blue, green, red, and white. She is a terror on the battlefield, capable of annihilating whole armies with her five breath weapons, her formidable spellcasting, and her fearsome claws.</p>
+					<p>Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares control of the faith of dragonkind. She also holds a special enmity for Asmodeus, who long ago stripped her of the rule of Avernus and who continues to curb the Dragon Queen's power.</p>
+				</text>
+				<token type="token">tokens/blackdragonwyrmling.png@DD MM Monster Manual</token>
+				<traits>
+					<id-00001>
+						<desc type="string">The dragon can breathe air and water.</desc>
+						<name type="string">Amphibious</name>
+					</id-00001>
+				</traits>
+				<type type="string">dragon</type>
+				<xp type="number">450</xp>
+			</id-00008>
 		</category>
 	</npc>
 	<options>
@@ -199,16 +3276,285 @@
 	<partysheet>
 		<public />
 	</partysheet>
+	<race>
+	</race>
+	<reference>
+		<armor>
+		</armor>
+		<npcdatabycr>
+		</npcdatabycr>
+		<npcdatabyletter>
+		</npcdatabyletter>
+	</reference>
+	<spell>
+	</spell>
 	<tables>
 		<category name="Jumanji: Encounter Generator" baseicon="0" decalicon="0">
+			<id-00001>
+				<dice type="dice">d12</dice>
+				<hiderollresults type="number">0</hiderollresults>
+				<locked type="number">1</locked>
+				<mod type="number">0</mod>
+				<name type="string">The Upper Jungle: Random Encounters CR 1</name>
+				<notes type="formattedtext">
+					<p></p>
+				</notes>
+				<resultscols type="number">1</resultscols>
+				<table_positionoffset type="number">0</table_positionoffset>
+				<tablerows>
+					<id-00001>
+						<fromrange type="number">1</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Jungle Encounter CR 1 (simple combat)</result>
+								<resultlink type="windowreference">
+									<class>table</class>
+									<recordname>tables.id-00002</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">4</torange>
+					</id-00001>
+					<id-00002>
+						<fromrange type="number">9</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Jungle Encounter CR 1 (two-scene)</result>
+								<resultlink type="windowreference">
+									<class>table</class>
+									<recordname>tables.id-00003</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">11</torange>
+					</id-00002>
+					<id-00003>
+						<fromrange type="number">12</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Jungle Encounter CR 1 (three-scene)</result>
+								<resultlink type="windowreference">
+									<class>table</class>
+									<recordname>tables.id-00004</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">12</torange>
+					</id-00003>
+					<id-00004>
+						<fromrange type="number">5</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Jungle Encounter CR 1 (skills)</result>
+								<resultlink type="windowreference">
+									<class>table</class>
+									<recordname>tables.id-00005</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">8</torange>
+					</id-00004>
+				</tablerows>
+			</id-00001>
 			<id-00002>
-				<description type="string">A random encounter table of CR encounters in any Jungle enviornment.</description>
-				<dice type="dice"></dice>
+				<description type="string">A random encounter table of CR encounters in the Upper Jungle region of the Three Rivers</description>
+				<dice type="dice">d20</dice>
 				<hiderollresults type="number">0</hiderollresults>
 				<labelcol1 type="string">Encounter</labelcol1>
 				<locked type="number">1</locked>
 				<mod type="number">0</mod>
 				<name type="string">Jungle Encounter CR 1</name>
+				<notes type="formattedtext">
+					<p>The encounters presented here are simple combat ones that allow the characters to flex their muscles and feel a slight threat, but not tax them too much or ask much of a commitment.</p>
+					<p><b>Maps</b></p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00004">forest-a</link>
+						<link class="imagewindow" recordname="image.id-00005">forest-b</link>
+						<link class="imagewindow" recordname="image.id-00006">forest-river</link>
+						<link class="imagewindow" recordname="image.id-00007">jungle-a</link>
+					</linklist>
+				</notes>
+				<resultscols type="number">1</resultscols>
+				<table_positionoffset type="number">0</table_positionoffset>
+				<tablerows>
+					<id-00001>
+						<fromrange type="number">13</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Kobold Trappers</result>
+								<resultlink type="windowreference">
+									<class>battlerandom</class>
+									<recordname>battlerandom.id-00002</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">14</torange>
+					</id-00001>
+					<id-00002>
+						<fromrange type="number">15</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Kobold Bandits</result>
+								<resultlink type="windowreference">
+									<class>battlerandom</class>
+									<recordname>battlerandom.id-00003</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">16</torange>
+					</id-00002>
+					<id-00003>
+						<fromrange type="number">7</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Rat Pack</result>
+								<resultlink type="windowreference">
+									<class>battlerandom</class>
+									<recordname>battlerandom.id-00004</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">9</torange>
+					</id-00003>
+					<id-00004>
+						<fromrange type="number">4</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Stirge Nest</result>
+								<resultlink type="windowreference">
+									<class>battlerandom</class>
+									<recordname>battlerandom.id-00005</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">6</torange>
+					</id-00004>
+					<id-00005>
+						<fromrange type="number">1</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Flying Snakes</result>
+								<resultlink type="windowreference">
+									<class>battlerandom</class>
+									<recordname>battlerandom.id-00001</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">3</torange>
+					</id-00005>
+					<id-00006>
+						<fromrange type="number">19</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Tiger</result>
+								<resultlink type="windowreference">
+									<class>battle</class>
+									<recordname>battle.id-00003</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">19</torange>
+					</id-00006>
+					<id-00007>
+						<fromrange type="number">17</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Axe Beak Flock</result>
+								<resultlink type="windowreference">
+									<class>battlerandom</class>
+									<recordname>battlerandom.id-00006</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">18</torange>
+					</id-00007>
+					<id-00008>
+						<fromrange type="number">10</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Boar Pack</result>
+								<resultlink type="windowreference">
+									<class>battlerandom</class>
+									<recordname>battlerandom.id-00007</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">12</torange>
+					</id-00008>
+					<id-00009>
+						<fromrange type="number">20</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Reroll encounter type</result>
+								<resultlink type="windowreference">
+									<class>table</class>
+									<recordname>tables.id-00001</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">20</torange>
+					</id-00009>
+				</tablerows>
+			</id-00002>
+			<id-00003>
+				<dice type="dice"></dice>
+				<hiderollresults type="number">0</hiderollresults>
+				<locked type="number">0</locked>
+				<mod type="number">0</mod>
+				<name type="string">Jungle Encounter CR 1 (two-scene)</name>
+				<notes type="formattedtext">
+					<p></p>
+				</notes>
+				<resultscols type="number">1</resultscols>
+				<table_positionoffset type="number">0</table_positionoffset>
+				<tablerows>
+					<id-00001>
+						<fromrange type="number">1</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Kobold Camp</result>
+								<resultlink type="windowreference">
+									<class>encounter</class>
+									<recordname>encounter.id-00003</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">0</torange>
+					</id-00001>
+					<id-00002>
+						<fromrange type="number">2</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Pixie Tribes</result>
+								<resultlink type="windowreference">
+									<class>encounter</class>
+									<recordname>encounter.id-00007</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">0</torange>
+					</id-00002>
+					<id-00003>
+						<fromrange type="number">0</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Trapper/Hunter?</result>
+								<resultlink type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">0</torange>
+					</id-00003>
+				</tablerows>
+			</id-00003>
+			<id-00004>
+				<dice type="dice"></dice>
+				<hiderollresults type="number">0</hiderollresults>
+				<locked type="number">1</locked>
+				<mod type="number">0</mod>
+				<name type="string">Jungle Encounter CR 1 (three-scene)</name>
 				<notes type="formattedtext">
 					<p></p>
 				</notes>
@@ -240,7 +3586,377 @@
 						<torange type="number">0</torange>
 					</id-00002>
 				</tablerows>
-			</id-00002>
+			</id-00004>
+			<id-00005>
+				<dice type="dice"></dice>
+				<hiderollresults type="number">0</hiderollresults>
+				<locked type="number">0</locked>
+				<mod type="number">0</mod>
+				<name type="string">Jungle Encounter CR 1 (skills)</name>
+				<notes type="formattedtext">
+					<p></p>
+				</notes>
+				<resultscols type="number">1</resultscols>
+				<table_positionoffset type="number">0</table_positionoffset>
+				<tablerows>
+					<id-00001>
+						<fromrange type="number">0</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Leeches</result>
+								<resultlink type="windowreference">
+									<class>encounter</class>
+									<recordname>encounter.id-00008</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">0</torange>
+					</id-00001>
+					<id-00002>
+						<fromrange type="number">0</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Storm</result>
+								<resultlink type="windowreference">
+									<class>encounter</class>
+									<recordname>encounter.id-00009</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">0</torange>
+					</id-00002>
+					<id-00003>
+						<fromrange type="number">0</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Difficult Terrain</result>
+								<resultlink type="windowreference">
+									<class>encounter</class>
+									<recordname>encounter.id-00010</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">0</torange>
+					</id-00003>
+					<id-00004>
+						<fromrange type="number">0</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Kobold Traps</result>
+								<resultlink type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">0</torange>
+					</id-00004>
+				</tablerows>
+			</id-00005>
 		</category>
 	</tables>
+	<treasureparcels>
+		<id-00001>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">0</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">EP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00004>
+				<id-00005>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00005>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>Contains written notes on the process of flax farming and designs for ingenious little device to exchange the water in retting tanks.</p>
+					</description>
+					<locked type="number">1</locked>
+					<name type="string">Farmer's Notebook</name>
+					<weight type="number">0</weight>
+				</id-00001>
+				<id-00002>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<cost type="string">10 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>This gemstone is transparent pale blue in color.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Blue Quartz</name>
+					<subtype type="string">Gemstones (10 Gp)</subtype>
+					<type type="string">Treasure</type>
+					<weight type="number">0.01</weight>
+				</id-00002>
+			</itemlist>
+			<locked type="number">1</locked>
+			<name type="string">Farmhouse</name>
+			<temp>
+			</temp>
+		</id-00001>
+		<id-00003>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">60</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">11</amount>
+					<description type="string">EP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">1700</amount>
+					<description type="string">SP</description>
+				</id-00004>
+				<id-00005>
+					<amount type="number">2300</amount>
+					<description type="string">CP</description>
+				</id-00005>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<cost type="string">50 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>This gemstone is transparent white, smoky gray, or yellow in color.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Quartz</name>
+					<subtype type="string">Gemstones (50 Gp)</subtype>
+					<type type="string">Treasure</type>
+					<weight type="number">0.01</weight>
+				</id-00001>
+				<id-00002>
+					<cost type="string">50 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>This gemstone is opaque bands of red and white in color.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Sardonyx</name>
+					<subtype type="string">Gemstones (50 Gp)</subtype>
+					<type type="string">Treasure</type>
+					<weight type="number">0.01</weight>
+				</id-00002>
+				<id-00003>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<cost type="string">50 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>This gemstone is transparent pale blue-green in color.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Zircon</name>
+					<subtype type="string">Gemstones (50 Gp)</subtype>
+					<type type="string">Treasure</type>
+					<weight type="number">0.01</weight>
+				</id-00003>
+				<id-00004>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<cost type="string">50 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>This gemstone is translucent rosy stone with white star-shaped center in color.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Star Rose Quartz</name>
+					<subtype type="string">Gemstones (50 Gp)</subtype>
+					<type type="string">Treasure</type>
+					<weight type="number">0.01</weight>
+				</id-00004>
+				<id-00005>
+					<cost type="string">50 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>This gemstone is translucent white with pale blue glow in color.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Moonstone</name>
+					<subtype type="string">Gemstones (50 Gp)</subtype>
+					<type type="string">Treasure</type>
+					<weight type="number">0.01</weight>
+				</id-00005>
+				<id-00006>
+					<cost type="string">50 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>This gemstone is opaque white in color.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Chalcedony</name>
+					<subtype type="string">Gemstones (50 Gp)</subtype>
+					<type type="string">Treasure</type>
+					<weight type="number">0.01</weight>
+				</id-00006>
+				<id-00007>
+					<cost type="string">50 gp</cost>
+					<count type="number">2</count>
+					<description type="formattedtext">
+						<p>This gemstone is opaque blue, black, or brown in color.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Jasper</name>
+					<subtype type="string">Gemstones (50 Gp)</subtype>
+					<type type="string">Treasure</type>
+					<weight type="number">0.01</weight>
+				</id-00007>
+				<id-00008>
+					<cost type="string">50 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>This gemstone is translucent green in color.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Chrysoprase</name>
+					<subtype type="string">Gemstones (50 Gp)</subtype>
+					<type type="string">Treasure</type>
+					<weight type="number">0.01</weight>
+				</id-00008>
+				<id-00009>
+					<cost type="string">101 - 500 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<h>Description</h>
+						<linklist>
+							<link class="imagewindow" recordname="reference.imagedata.img_bag_of_holding_jpg@*"><b>Image: </b></link>Bag of Holding</linklist>
+						<p>This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet.</p>
+						<p>The bag weighs 15 pounds, regardless of its contents.</p>
+						<p>Retrieving an item from the bag requires an action.</p>
+						<p>If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.</p>
+						<p>Placing a bag of holding inside an extra dimensional space created by a <i>Heward's handy haversack </i>, <i>portable hole </i>, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.</p>
+					</description>
+					<isidentified type="number">0</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Bag of Holding</name>
+					<nonid_name type="string">Bag</nonid_name>
+					<nonidentified type="string">A bag made of brightly colored pieces of cloth sewn together with fine thread and with a leather strap.</nonidentified>
+					<properties type="string">Magic</properties>
+					<rarity type="string">Uncommon</rarity>
+					<spells>
+						<id-00001>
+							<link type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</link>
+							<name type="string">Bag of Holding</name>
+						</id-00001>
+						<id-00002>
+							<link type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</link>
+							<name type="string">Bag (H)</name>
+						</id-00002>
+					</spells>
+					<type type="string">Wondrous Item</type>
+					<weight type="number">15</weight>
+				</id-00009>
+				<id-00010>
+					<cost type="string">100 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<h>Description</h>
+						<linklist>
+							<link class="reference_spell" recordname="reference.spelldata.locateobject@*"><b>Spell: </b></link>Locate Object</linklist>
+							<link class="imagewindow" recordname="reference.imagedata.img_spell_scroll_jpg@*"><b>Image: </b></link>Spell Scrolls
+						<p>This spell scroll bears the words of a single spell, <i>Locate Object </i>, written in a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.</p>
+						<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect.</p>
+						<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>
+						<p>This spell scroll's saving throw DC 13 and attack bonus +5.</p>
+						<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>
+					</description>
+					<isidentified type="number">0</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Scroll of Locate Object</name>
+					<nonid_name type="string">Elegant Scroll</nonid_name>
+					<nonidentified type="string">The materials used in this scroll are of very high quality and the writing is precise and done with a great deal of care and attention to detail.</nonidentified>
+					<properties type="string">Magic</properties>
+					<rarity type="string">Uncommon</rarity>
+					<spells>
+						<id-00001>
+							<link type="windowreference">
+								<class>reference_spell</class>
+								<recordname>reference.spelldata.locateobject@*</recordname>
+							</link>
+							<name type="string">Locate Object</name>
+						</id-00001>
+					</spells>
+					<type type="string">Scroll</type>
+				</id-00010>
+				<id-00011>
+					<cost type="string">101 - 500 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<h>Description</h>
+						<linklist>
+							<link class="imagewindow" recordname="reference.imagedata.img_boots_of_elvenkind_jpg@*"><b>Image: </b></link>Boots of Elvenkind</linklist>
+						<p>While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Dexterity (Stealth) checks that rely on moving silently.</p>
+					</description>
+					<isidentified type="number">0</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Boots of Elvenkind</name>
+					<nonid_name type="string">Boots</nonid_name>
+					<nonidentified type="string">The finest leather has gone into the making of these superb boots. They are unmistakably Elven in origin.</nonidentified>
+					<properties type="string">Magic</properties>
+					<rarity type="string">Uncommon</rarity>
+					<spells>
+						<id-00001>
+							<link type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</link>
+							<name type="string">Boots of Elvenkind</name>
+						</id-00001>
+						<id-00002>
+							<link type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</link>
+							<name type="string">Boots</name>
+						</id-00002>
+					</spells>
+					<type type="string">Wondrous Item</type>
+					<weight type="number">0.5</weight>
+				</id-00011>
+			</itemlist>
+			<locked type="number">1</locked>
+			<name type="string">Xeriel's Hoard</name>
+			<temp>
+			</temp>
+		</id-00003>
+	</treasureparcels>
 </root>

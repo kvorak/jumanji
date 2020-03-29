@@ -1,10 +1,17 @@
 # Ignore Fantasy Grounds II artifacts
 chatlog.html
+db.backup.*
 db.restore.xml
 db.session.*
 extensionstate.xml
 windowstate.xml
 modulestate.xml
+
+# Ignore images folder
+images/
+maskedimages/
+portraits/
+moduledb/
 
 # Ignore other tool settings
 /usersettings
