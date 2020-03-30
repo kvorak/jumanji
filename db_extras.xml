@@ -1,0 +1,129 @@
+	<library>
+		<jumanji>
+			<entries>
+				<refindex>
+					<librarylink type="windowreference">
+						<class>reference_manual</class>
+						<recordname>reference.refindex</recordname>
+					</librarylink>
+					<name type="string">Reference Manual</name>
+				</refindex>
+			</entries>
+		</jumanji>
+	</library>
+	<reference>
+		<refindex>
+			<chapters>
+				<atlas>
+					<name type="string">Jumanji Atlas</name>
+					<subchapters>
+						<three_rivers>
+							<name type="string">The Three Rivers</name>
+							<refpages>
+								<refpage_001>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanual.upper_jungle</recordname>
+										<description><field>name</field></description>
+									</listlink>
+									<name type="string">Upper Jungle</name>
+									<keywords type="string">upper three rivers</keywords>
+								</refpage_001>
+							</refpages>
+						</three_rivers>
+					</subchapters>
+				</atlas>
+				<optional_rules>
+					<name type="string">Optional Rules</name>
+					<subchapters>
+						<crafting>
+							<name type="string">Crafting</name>
+							<refpages>
+								<refpage_001>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanual.crafting_overview</recordname>
+										<description><field>name</field></description>
+									</listlink>
+									<name type="string">Overview</name>
+									<keywords type="string">crafting questionable arcana</keywords>
+								</refpage_001>
+							</refpages>
+						</crafting>
+						<overland_travel>
+							<name type="string">Overland Travel</name>
+							<refpages>
+								<refpage_001>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanual.travel_overview</recordname>
+										<description><field>name</field></description>
+									</listlink>
+									<name type="string">Overland Travel</name>
+									<keywords type="string">travel</keywords>
+								</refpage_001>
+							</refpages>
+						</overland_travel>
+					</subchapters>
+				</optional_rules>
+			</chapters>
+		</refindex>
+		<refmanual>
+			<upper_jungle>
+				<name type="string">The Three Rivers: Upper Jungle</name>
+				<group type="string">Jumanji Atlas</group>
+				<subgroup type="string">The Three Rivers</subgroup>
+				<text type="formattedtext" />
+				<blocks>
+					<id-001>
+						<blocktype type="string">singletext</blocktype>
+						<align type="string">center</align>
+						<frame type="string">noframe</frame>
+						<text type="formattedtext">
+							<p>The region known as Three Rivers is the area around an inverted delta on the coast of the mainland. With mountains to the west and large, flat plain that slopes softly toward the ocean in the east, three large rivers converge forming a floodplain rich in sediment and fertile land. Like much of the world, the land is too overgrown for much farming, but it yields bountifully in game, nuts, berries, fruits and other forageable food items.</p>
+							<linklist>
+								<link class="imagewindow" recordname="image.id-00001">Map of the Three Rivers</link>
+								<link class="encounter" recordname="encounter.id-00002">2.1 The Upper Jungle</link>
+							</linklist>
+						</text>
+					</id-001>
+				</blocks>
+			</upper_jungle>
+			<crafting_overview>
+				<blocks>
+					<id-00001>
+						<align type="string">center</align>
+						<blocktype type="string">singletext</blocktype>
+						<frame type="string">nostring</frame>
+						<text type="formattedtext">
+							<p>The crafting system is borrowed from Questionable Arcana</p>
+						</text>
+					</id-00001>
+				</blocks>
+				<group type="string">Reference</group>
+				<name type="string">Overview</name>
+				<subgroup type="string">Crafting</subgroup>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+			</crafting_overview>
+			<travel_overview>
+				<blocks>
+					<id-00001>
+						<align type="string">center</align>
+						<blocktype type="string">singletext</blocktype>
+						<frame type="string">nostring</frame>
+						<text type="formattedtext">
+							<p>Travel through the jungles of Jumanji is difficult by design. Below you will find rules for turning an overland journey or a tracking/hunting activity into a skill challenge</p>
+						</text>
+					</id-00001>
+				</blocks>
+				<group type="string">Reference</group>
+				<name type="string">Overview</name>
+				<subgroup type="string">Overland Travel</subgroup>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+			</travel_overview>
+		</refmanual>
+	</reference>

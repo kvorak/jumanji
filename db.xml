@@ -1198,17 +1198,6 @@
 	</effects>
 	<encounter>
 		<category name="Jumanji Encounters" baseicon="0" decalicon="0">
-			<id-00001>
-				<locked type="number">0</locked>
-				<name type="string">1. The Three Rivers</name>
-				<text type="formattedtext">
-					<p>The region known as Three Rivers is the area around an inverted delta on the coast of the mainland. With mountains to the west and large, flat plain that slopes softly toward the ocean in the east, three large rivers converge forming a floodplain rich in sediment and fertile land. Like much of the world, the land is too overgrown for much farming, but it yields bountifully in game, nuts, berries, fruits and other forageable food items.</p>
-					<linklist>
-						<link class="imagewindow" recordname="image.id-00001">Map of the Three Rivers</link>
-						<link class="encounter" recordname="encounter.id-00002">2.1 The Upper Jungle</link>
-					</linklist>
-				</text>
-			</id-00001>
 			<id-00002>
 				<locked type="number">1</locked>
 				<name type="string">Encounter: (1) Leeches</name>
@@ -1315,6 +1304,14 @@
 			</id-00008>
 		</category>
 	</encounter>
+	<export>
+		<author type="string">bassmnky, kvorak</author>
+		<category type="string">Campaign Setting</category>
+		<file type="string">jumanji-dm</file>
+		<name type="string">Jumanji</name>
+		<playervisible type="number">0</playervisible>
+		<readonly type="number">1</readonly>
+	</export>
 	<feat>
 	</feat>
 	<forge>
@@ -1973,12 +1970,44 @@
 	<race>
 	</race>
 	<reference>
-		<armor>
-		</armor>
-		<npcdatabycr>
-		</npcdatabycr>
-		<npcdatabyletter>
-		</npcdatabyletter>
+		<refindex>
+			<chapters>
+				<atlas>
+					<name type="string">Jumanji Atlas</name>
+					<subchapters>
+						<three_rivers>
+							<name type="string">The Three Rivers</name>
+							<refpages>
+								<keywords type="string">upper three rivers</keywords>
+								<listlink type="windowreference">
+									<class>reference_manualtextwide</class>
+									<recordname>reference.refmanual.upper_jungle</recordname>
+								</listlink>
+								<name type="string">Upper Jungle</name>
+							</refpages>
+						</three_rivers>
+					</subchapters>
+				</atlas>
+			</chapters>
+		</refindex>
+		<refmanual>
+			<upper_jungle>
+				<blocks>
+					<id-001>
+						<align type="string">center</align>
+						<blocktype type="string">text</blocktype>
+						<text type="formattedtext">
+							<p>The region known as Three Rivers is the area around an inverted delta on the coast of the mainland. With mountains to the west and large, flat plain that slopes softly toward the ocean in the east, three large rivers converge forming a floodplain rich in sediment and fertile land. Like much of the world, the land is too overgrown for much farming, but it yields bountifully in game, nuts, berries, fruits and other forageable food items.</p>
+							<linklist>
+								<link class="imagewindow" recordname="image.id-00001">Map of the Three Rivers</link>
+								<link class="encounter" recordname="encounter.id-00002">2.1 The Upper Jungle</link>
+							</linklist>
+						</text>
+					</id-001>
+				</blocks>
+				<name type="string">The Three Rivers: Upper Jungle</name>
+			</upper_jungle>
+		</refmanual>
 	</reference>
 	<spell>
 	</spell>
