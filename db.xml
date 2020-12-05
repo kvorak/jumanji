@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root version="3.3" release="8|CoreRPG:4">
 	<background>
+		<id-00001>
+			<equipment type="string">A hunting trap, a knife, a set of common clothes, and a belt pouch containing 10gp.</equipment>
+			<features>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Expert Hunter</name>
+					<text type="formattedtext">
+						<p>You have advantage on ability checks to track or locate beasts and monstrosities, assuming that you have had an opportunity to know you should be looking for.</p>
+					</text>
+				</id-00001>
+			</features>
+			<languages type="string">Sylvan</languages>
+			<locked type="number">1</locked>
+			<name type="string">Huntmaster</name>
+			<skill type="string">Survival, Nature</skill>
+			<text type="formattedtext">
+				<p></p>
+			</text>
+			<tool type="string">One of your choice</tool>
+		</id-00001>
 	</background>
 	<battle>
 		<id-00004>
@@ -306,13 +326,220 @@
 					</id-00001>
 				</npclist>
 			</id-00008>
+			<id-00009>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">2. Dire Wolves</name>
+				<npclist>
+					<id-00001>
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.direwolf@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Dire Wolf</name>
+						<token type="token">tokens/D.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00009>
+			<id-00010>
+				<cr type="string">2</cr>
+				<exp type="number">450</exp>
+				<locked type="number">1</locked>
+				<name type="string">Giant Constrictor Snake</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantconstrictorsnake@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Giant Constrictor Snake</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00010>
+			<id-00011>
+				<cr type="string">2</cr>
+				<exp type="number">450</exp>
+				<locked type="number">1</locked>
+				<name type="string">Poisonous Snakes, Swarm</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.swarmofpoisonoussnakes@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Swarm of Poisonous Snakes</name>
+						<token type="token">tokens/S.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00011>
+		</category>
+		<category name="The Druid Vault" baseicon="0" decalicon="0">
+			<id-00012>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Blighted Plants</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.vineblight@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00008.image</recordname>
+								</imageref>
+								<imagex type="number">546</imagex>
+								<imagey type="number">147</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Vine Blight</name>
+						<token type="token">tokens/vineblight.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">4</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.needleblight@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00008.image</recordname>
+								</imageref>
+								<imagex type="number">610</imagex>
+								<imagey type="number">403</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00008.image</recordname>
+								</imageref>
+								<imagex type="number">418</imagex>
+								<imagey type="number">275</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00008.image</recordname>
+								</imageref>
+								<imagex type="number">546</imagex>
+								<imagey type="number">339</imagey>
+							</id-00003>
+							<id-00004>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00008.image</recordname>
+								</imageref>
+								<imagex type="number">354</imagex>
+								<imagey type="number">467</imagey>
+							</id-00004>
+						</maplink>
+						<name type="string">Needle Blight</name>
+						<token type="token">tokens/needleblight.png@DD MM Monster Manual</token>
+					</id-00002>
+					<id-00003>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.gasspore@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00008.image</recordname>
+								</imageref>
+								<imagex type="number">386</imagex>
+								<imagey type="number">115</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Gas Spore</name>
+						<token type="token">tokens/gasspore.png@DD MM Monster Manual</token>
+					</id-00003>
+				</npclist>
+			</id-00012>
+			<id-00013>
+				<cr type="string">2</cr>
+				<exp type="number">450</exp>
+				<locked type="number">1</locked>
+				<name type="string">The Insane Tree</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.awakenedtree@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00008.image</recordname>
+								</imageref>
+								<imagex type="number">194</imagex>
+								<imagey type="number">307</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Awakened Tree</name>
+						<token type="token">tokens/A.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00013>
 		</category>
 	</battle>
 	<battlerandom>
 		<category name="Jumanji Encounter Generator" baseicon="0" decalicon="0">
 			<id-00001>
 				<locked type="number">1</locked>
-				<name type="string">Flying Snakes</name>
+				<name type="string">1. Flying Snakes</name>
 				<npclist>
 					<id-00001>
 						<count type="number">1</count>
@@ -328,7 +555,7 @@
 			</id-00001>
 			<id-00002>
 				<locked type="number">1</locked>
-				<name type="string">Kobold Trappers</name>
+				<name type="string">1. Kobold Trappers</name>
 				<npclist>
 					<id-00001>
 						<count type="number">1</count>
@@ -354,7 +581,7 @@
 			</id-00002>
 			<id-00003>
 				<locked type="number">1</locked>
-				<name type="string">Kobold Bandits</name>
+				<name type="string">1. Kobold Bandits</name>
 				<npclist>
 					<id-00001>
 						<count type="number">1</count>
@@ -448,7 +675,7 @@
 			</id-00006>
 			<id-00007>
 				<locked type="number">1</locked>
-				<name type="string">Boar Pack</name>
+				<name type="string">1. Boar Pack</name>
 				<npclist>
 					<id-00001>
 						<count type="number">1</count>
@@ -462,6 +689,405 @@
 					</id-00001>
 				</npclist>
 			</id-00007>
+			<id-00008>
+				<locked type="number">1</locked>
+				<name type="string">2. Flying Snakes</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d6+4</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.flyingsnake@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Flying Snake</name>
+						<token type="token">tokens/F.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00008>
+			<id-00009>
+				<locked type="number">1</locked>
+				<name type="string">2. Boar Pack</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d4+4</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.boar@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Boar</name>
+						<token type="token">tokens/B.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00009>
+			<id-00010>
+				<locked type="number">1</locked>
+				<name type="string">2. Kobold Trappers</name>
+				<npclist>
+					<id-00003>
+						<count type="number">1</count>
+						<expr type="string">1d4+2</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.wingedkobold@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Winged Kobold</name>
+						<token type="token">tokens/wingedkobold.png@DD MM Monster Manual</token>
+					</id-00003>
+					<id-00004>
+						<count type="number">1</count>
+						<expr type="string">2</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantwasp@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Giant Wasp</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00004>
+				</npclist>
+			</id-00010>
+			<id-00011>
+				<locked type="number">1</locked>
+				<name type="string">2. Kobold Bandits</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d4+2</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.kobold@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Kobold</name>
+						<token type="token">tokens/kobold.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<expr type="string">1d2</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.wingedkobold@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Winged Kobold</name>
+						<token type="token">tokens/wingedkobold.png@DD MM Monster Manual</token>
+					</id-00002>
+					<id-00003>
+						<count type="number">1</count>
+						<expr type="string">1d2</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.mastiff@DD PHB Deluxe</recordname>
+						</link>
+						<name type="string">Mastiff</name>
+						<token type="token">tokens/mastiff.png@DD PHB Deluxe</token>
+					</id-00003>
+				</npclist>
+			</id-00011>
+			<id-00012>
+				<locked type="number">1</locked>
+				<name type="string">Giant Wasp Nest</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d4+2</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantwasp@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Giant Wasp</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00012>
+			<id-00013>
+				<locked type="number">1</locked>
+				<name type="string">Blighted Plants</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d6+3</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.twigblight@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Twig Blight</name>
+						<token type="token">tokens/twigblight.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<expr type="string">1d4</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.needleblight@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Needle Blight</name>
+						<token type="token">tokens/needleblight.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00013>
+			<id-00014>
+				<locked type="number">1</locked>
+				<name type="string">Fungus Patch</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d4+1</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.violetfungus@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Violet Fungus</name>
+						<token type="token">tokens/violetfungus.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<expr type="string">1d2</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.shrieker@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Shrieker</name>
+						<token type="token">tokens/shrieker.png@DD MM Monster Manual</token>
+					</id-00002>
+					<id-00003>
+						<count type="number">1</count>
+						<expr type="string">1d2-1</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.gasspore@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Gas Spore</name>
+						<token type="token">tokens/gasspore.png@DD MM Monster Manual</token>
+					</id-00003>
+				</npclist>
+			</id-00014>
+			<id-00015>
+				<locked type="number">1</locked>
+				<name type="string">3. Giant Spider</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d2+1</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantspider@DD PHB Deluxe</recordname>
+						</link>
+						<name type="string">Giant Spider</name>
+						<token type="token">tokens/giantspider.png@DD PHB Deluxe</token>
+					</id-00001>
+				</npclist>
+			</id-00015>
+			<id-00016>
+				<locked type="number">1</locked>
+				<name type="string">3. Glass Gator</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d2+1</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.glassgator@Tome of Beasts</recordname>
+						</link>
+						<name type="string">Glass Gator</name>
+						<token type="token">tokens/glassgator.png@Tome of Beasts</token>
+					</id-00001>
+				</npclist>
+			</id-00016>
+			<id-00017>
+				<locked type="number">1</locked>
+				<name type="string">3. Tigers</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d2+2</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.tiger@DD PHB Deluxe</recordname>
+						</link>
+						<name type="string">Tiger</name>
+						<token type="token">tokens/T.png@DD PHB Deluxe</token>
+					</id-00001>
+				</npclist>
+			</id-00017>
+			<id-00018>
+				<locked type="number">1</locked>
+				<name type="string">3. Allosaurus</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d3-1</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.allosaurus@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Allosaurus</name>
+						<token type="token">tokens/allosaurus.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00018>
+			<id-00019>
+				<locked type="number">1</locked>
+				<name type="string">3. Giant Constrictor Brood</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d4</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.constrictorsnake@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Constrictor Snake</name>
+						<token type="token">tokens/C.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<expr type="string">1</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantconstrictorsnake@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Giant Constrictor Snake</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00019>
+			<id-00020>
+				<locked type="number">1</locked>
+				<name type="string">3. Giant Boar</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d2</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantboar@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Giant Boar</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00020>
+			<id-00021>
+				<locked type="number">1</locked>
+				<name type="string">3. Saber-Toothed Tiger</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.saber_toothedtiger@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Saber-Toothed Tiger</name>
+						<token type="token">tokens/S.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<expr type="string">1d2</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.tiger@DD PHB Deluxe</recordname>
+						</link>
+						<name type="string">Tiger</name>
+						<token type="token">tokens/T.png@DD PHB Deluxe</token>
+					</id-00002>
+				</npclist>
+			</id-00021>
+			<id-00022>
+				<locked type="number">1</locked>
+				<name type="string">3. Sarco</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1</expr>
+						<isidentified type="number">0</isidentified>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00006</recordname>
+						</link>
+						<name type="string">Sarcosuchus</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<expr type="string">1d4</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.crocodile@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Crocodile</name>
+						<token type="token">tokens/C.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00022>
+			<id-00023>
+				<locked type="number">1</locked>
+				<name type="string">3. Giant Poisonous Snakes</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.swarmofpoisonoussnakes@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Swarm of Poisonous Snakes</name>
+						<token type="token">tokens/S.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<expr type="string">1d4</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantpoisonoussnake@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Giant Poisonous Snake</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00023>
+			<id-00024>
+				<locked type="number">1</locked>
+				<name type="string">Lizardfolk Tribesmen</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d6+6</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.lizardfolk@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Lizardfolk</name>
+						<token type="token">tokens/lizardfolk.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00024>
+			<id-00025>
+				<locked type="number">1</locked>
+				<name type="string">Lizardfolk Guards</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<expr type="string">1d6+3</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.lizardfolk@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Lizardfolk</name>
+						<token type="token">tokens/lizardfolk.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<expr type="string">1d3</expr>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.crocodile@DD MM Monster Manual</recordname>
+						</link>
+						<name type="string">Crocodile</name>
+						<token type="token">tokens/C.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00025>
 		</category>
 	</battlerandom>
 	<calendar>
@@ -4615,9 +5241,10 @@
 				<text type="formattedtext">
 					<h>Kobolds</h>
 					<linklist>
-						<link class="imagewindow" recordname="reference.imagedata.img_kobold_jpg@*"><b>Image: </b></link>Kobolds</linklist>
+						<link class="imagewindow" recordname="reference.imagedata.img_kobold_jpg@*"><b>Image: </b>Kobolds</link>
+					</linklist>
 					<p>Kobolds are craven reptilian humanoids that worship evil dragons as demigods and serve them as minions and toadies. Kobolds inhabit dragons' lairs when they can but more commonly infest dungeons, gathering treasures and trinkets to add to their own tiny hoards.</p>
-					<p><b><i>Strength in Numbers. </i></b>Kobolds are egg-laying creatures. They mature quickly and can live to be &#34;great wyrms&#34; more than a century old. However, many kobolds perish before they reach the end of their first decade. Physically weak, they are easy prey for predators. This vulnerability forces them to band together. Their superior numbers can win battles against powerful adversaries, but often with massive casualties on the kobold side.</p>
+					<p><b><i>Strength in Numbers. </i></b>Kobolds are egg-laying creatures. They mature quickly and can live to be &quot;great wyrms&quot; more than a century old. However, many kobolds perish before they reach the end of their first decade. Physically weak, they are easy prey for predators. This vulnerability forces them to band together. Their superior numbers can win battles against powerful adversaries, but often with massive casualties on the kobold side.</p>
 					<p><b><i>Tunnelers and Builders. </i></b>Kobolds make up for their physical ineptitude with a cleverness for trap making and tunneling. Their lairs consist of low tunnels through which they move easily but which hinder larger humanoids. Kobolds also riddle their lairs with traps. The most insidious kobold traps make use of natural hazards and other creatures. A trip wire might connect to a spring-loaded trap that hurls clay pots of flesh-eating green slime or flings crates of venomous giant centipedes at intruders.</p>
 					<p><b><i>The Lost God. </i></b>In addition to the dragons they revere, kobolds worship a lesser god named Kurtulmak. Legends speak of how Kurtulmak served as Tiamat's vassal in the Nine Hells until Garl Glittergold, the god of gnomes, stole a trinket from the Dragon Queen's hoard. Tiamat sent Kurtulmak to retrieve the trinket, but Garl Glittergold played a trick on him, collapsing the earth and trapping the kobold god in an underground maze for eternity. For this reason, kobolds hate gnomes and pranks of any kind. Kurtulmak's most devoted worshipers dedicate themselves to finding and releasing their lost god from his prison-maze.</p>
 				</text>
@@ -4746,9 +5373,10 @@
 				<text type="formattedtext">
 					<h>Kobolds</h>
 					<linklist>
-						<link class="imagewindow" recordname="reference.imagedata.img_kobold_jpg@*"><b>Image: </b></link>Kobolds</linklist>
+						<link class="imagewindow" recordname="reference.imagedata.img_kobold_jpg@*"><b>Image: </b>Kobolds</link>
+					</linklist>
 					<p>Kobolds are craven reptilian humanoids that worship evil dragons as demigods and serve them as minions and toadies. Kobolds inhabit dragons' lairs when they can but more commonly infest dungeons, gathering treasures and trinkets to add to their own tiny hoards.</p>
-					<p><b><i>Strength in Numbers. </i></b>Kobolds are egg-laying creatures. They mature quickly and can live to be &#34;great wyrms&#34; more than a century old. However, many kobolds perish before they reach the end of their first decade. Physically weak, they are easy prey for predators. This vulnerability forces them to band together. Their superior numbers can win battles against powerful adversaries, but often with massive casualties on the kobold side.</p>
+					<p><b><i>Strength in Numbers. </i></b>Kobolds are egg-laying creatures. They mature quickly and can live to be &quot;great wyrms&quot; more than a century old. However, many kobolds perish before they reach the end of their first decade. Physically weak, they are easy prey for predators. This vulnerability forces them to band together. Their superior numbers can win battles against powerful adversaries, but often with massive casualties on the kobold side.</p>
 					<p><b><i>Tunnelers and Builders. </i></b>Kobolds make up for their physical ineptitude with a cleverness for trap making and tunneling. Their lairs consist of low tunnels through which they move easily but which hinder larger humanoids. Kobolds also riddle their lairs with traps. The most insidious kobold traps make use of natural hazards and other creatures. A trip wire might connect to a spring-loaded trap that hurls clay pots of flesh-eating green slime or flings crates of venomous giant centipedes at intruders.</p>
 					<p><b><i>The Lost God. </i></b>In addition to the dragons they revere, kobolds worship a lesser god named Kurtulmak. Legends speak of how Kurtulmak served as Tiamat's vassal in the Nine Hells until Garl Glittergold, the god of gnomes, stole a trinket from the Dragon Queen's hoard. Tiamat sent Kurtulmak to retrieve the trinket, but Garl Glittergold played a trick on him, collapsing the earth and trapping the kobold god in an underground maze for eternity. For this reason, kobolds hate gnomes and pranks of any kind. Kurtulmak's most devoted worshipers dedicate themselves to finding and releasing their lost god from his prison-maze.</p>
 				</text>
@@ -4803,6 +5431,62 @@
 		<public />
 	</effects>
 	<encounter>
+		<id-00001>
+			<locked type="number">1</locked>
+			<name type="string">Travel as an Encounter</name>
+			<text type="formattedtext">
+				<p>Travelling through Jumanji's overgrown terrain is challenging in its own right.</p>
+				<p>While travelling, any group or party will have a seperate objective; people don't just travel though the jungle with no direction because they get bored. However, given things like distance to a desired location, or finding a certain resource both take time; and time kills out here. If the party's objective is simply to arrive at a location, see Navigation Checks below.</p>
+				<p>When making travel an encounter its own right the player's objective will determine the number of successes required to reach their goal, but each attempt and failure will raise the stakes.</p>
+				<p>A round of travel takes the following format:</p>
+				<list>
+					<li><b>Players' Turn: </b>Players declare their actions (usually skill checks) and determine those results. Characters may assist each other on tasks or perform different ones. This base skill DC is usually 8 + the average CR from the encounter table + the party's average proficiency bonus; so a party of 1st level characters in a CR 2 region would have a base skill DC of 11. Of course, the DM is encouraged to make specific variations and exceptions for different regions.</li>
+					<li><b>Fatigue Check: </b>at the end of the player's turn (as normal) characters each make a Constitution saving throw with a DC of 10 + two for each previous check made since the party's last long rest; failure results in one level of exhaustion.</li>
+					<li><b>DM's Turn: </b>The DM makes a random encounter check which is 1d20 against a +0 DC. This check can be affected by player actions taken during their turn. If the check is a success, the DM rolls on the appropriate random encounter table for an event.</li>
+					<li><b>Repeat: </b>This pattern continues until the players have achieved the required number of success checks.</li>
+				</list>
+				<h>Typical Player Actions During Travel</h>
+				<p>During travel, the players may take the following actions, though additional actions may be available at the DM's discretion. The skill DCs are relative to the average encounter level for the region's random encounter table.</p>
+				<table>
+					<tr>
+						<td>Wisdom (Perception)</td>
+						<td colspan="3">DC special: the player's result will be used for the party's spot check against potiential enemies.</td>
+					</tr>
+					<tr>
+						<td>Dexterity (Stealth)</td>
+						<td colspan="3">DC special: random encounters rolled must beat the party's stealth check or be avoided safely.</td>
+					</tr>
+					<tr>
+						<td>Strength (Athletics), Charisma (Performance), Wisdom (Insight)</td>
+						<td colspan="3">DC +0: blaze a better trail or lift the party's spirits. On a success, you and your party gain a +2 circumstance bonus to your next fatigue check.</td>
+					</tr>
+					<tr>
+						<td>Wisdom (Medicine)</td>
+						<td colspan="3">DC +2: help a struggling ally. One ally gain advantage on their next fatigue check.</td>
+					</tr>
+					<tr>
+						<td>Wisdom (Animal Handling)</td>
+						<td colspan="3">DC +2: you manage to avoid spooking or threatening the creatures around you. The DM rolls the next random encounter check with disadvantage.</td>
+					</tr>
+					<tr>
+						<td>Intelligence (Nature)</td>
+						<td colspan="3">DC +0: inform the party of potential hazards. The DM suffers a -2 penalty to the next random encounter check.</td>
+					</tr>
+				</table>
+				<h>Other Actions</h>
+				<p>In addition to the list above, players may have other tasks that they want to perform while they travel, such as:</p>
+				<p><b>Navigation Checks</b></p>
+				<p>If the players are travelling a fixed distance to a known point, travel ends when the players arrive at their desitnation; which will usually require two Navigation checks per day. A Navigation check is a DC +0 Wisdom (Survival) or Intelligence (Investigation) ability check.</p>
+				<p><b>Hunting/Foraging</b></p>
+				<p>Any character may attempt to find food using the following skills: Dexterity (Stealth, Sleight of Hand, Acrobatics), Intelligence (Investigation, Nature), Wisdom (Perception, Survival). A successful +0 check results in the character successfully finding enough food for one day's meals, for a number of people equal to 1d4 + proficiency modifer.</p>
+				<p>For example, Lief a 2nd level Rogue with Perception +5 attempts to forrage for edibles. Against a DC of 11, he rolls a 7; since 7 + 5 = 12 &gt; 11, he succeeds and forrages 1d4+1 meals. Rolling a 3, therefore, means he found enough to feed his party of four for the day.</p>
+				<p><b>Mapmaking</b></p>
+				<p>If any character is attempting to map the location, they must succeed on both a Navigation check and a Dexterity(Cartographer's Tools) check. Success results in an accurate map whcih grants advantage on subsequent Navigation checks in the region.</p>
+				<h>Experience for Travel Encounters</h>
+				<p>Any single travel segment with a single objective is generally worth the same XP as an encounter of the region's level. Bear in mind that since the characters are expected to take long rests several times over the course of this encounter, its difficulty is more a matter of the number of rounds they have to play between them. If you are only making two checks per day of normal travel, the above suggestion holds true, but if the character are prevented from resting and combat and fatigue checks start to pile up, consider giving a larger XP reward for the encounter.</p>
+				<p>Remember, in most cases, the cost of failure could well be combat which will grant its own experience. In addition, DMs could consider simply granting XP equal to a single creature's value for each day traveled.</p>
+			</text>
+		</id-00001>
 		<category name="Jumanji Encounters" baseicon="0" decalicon="0">
 			<id-00002>
 				<locked type="number">1</locked>
@@ -4869,9 +5553,26 @@
 			</id-00005>
 		</category>
 		<category name="Jumanji: Upper Jungle Encounters" baseicon="0" decalicon="0">
+			<id-00003>
+				<locked type="number">1</locked>
+				<name type="string">1.0 Upper Jungle Travel</name>
+				<text type="formattedtext">
+					<p>While travelling through the upper jungle, use the following to build travel encounters:</p>
+					<linklist>
+						<link class="table" recordname="tables.id-00001">The Upper Jungle: Random Encounters</link>
+						<link class="quest" recordname="quest.id-00001">Reward: Survive the Upper Jungle</link>
+					</linklist>
+					<list>
+						<li>The base fatigue DC is 12 due to the heavy underbrush</li>
+						<li>Travelling to a specific destination will usually require two successful DC 11 Navigation checks, per day.</li>
+						<li>the base skill DC is 11</li>
+						<li>random encounter checks are made with a +1 bonus for each day's travel the party is from Albior</li>
+					</list>
+				</text>
+			</id-00003>
 			<id-00006>
 				<locked type="number">1</locked>
-				<name type="string">Pixie Tribes</name>
+				<name type="string">1.2 Pixie Tribes</name>
 				<text type="formattedtext">
 					<p>There are pixies here in this part of the jungle that tend toward trying to protect it. They are lawful neutral by nature and prefer to be non-violent in their methods. The pixies are often the unfortunate victems of Kobold traps in the jungle and are in a very tense slow war with the sprites who protect nature by destroying those that harm it. They too are often victems of the Kobolds.</p>
 					<p>Characters may meet the pixies either as the pixie is ovserving them while they travel, injured and recovering from a kobold trap, sprite ambush, or other predator. Usually, the creature will not provoke a fight and will try to disengage rather than join one.</p>
@@ -4885,9 +5586,23 @@
 					</list>
 				</text>
 			</id-00006>
+			<id-00007>
+				<locked type="number">0</locked>
+				<name type="string">2.0 The Druid Vault</name>
+				<text type="formattedtext">
+					<p>Located somewhere in the jungle, lost to the centuries, a long forgotten druid sealed himself away with a strange evil to prevent its spread. Can the heroes escape a vault that has held this abberation for so long?</p>
+					<p>This a short adventure for a party of 2nd level characters.</p>
+					<h>Adventure Synopsis</h>
+					<p>A sudden monsoon causes a flashflood that washes the players into an underground cavern. Their only way out is through the maze of tunnels upward.</p>
+					<h>Adventure Background</h>
+					<p>A druid whose name has been forgotten once locked himself away in his basement with a mad tree he had awakened. Since the druid's death, the tree has been growing still, weakening the structure that imprisons it. The madness and hatred over its confinement have seeped through the walls to infect the plants that lie beyond and his influence is felt by the denizens of the tunnels he has pushed roots through to.</p>
+					<h>Author's Note</h>
+					<p>There is no point to this adventure; it is a sequence of encounters strung into a narrative that serves only to break up the montony of travel through a jungle. That being said, DMs are encouraged to leave clues to their own story somewhere within these scenes.</p>
+				</text>
+			</id-00007>
 			<id-00008>
 				<locked type="number">1</locked>
-				<name type="string">Kobold Camp</name>
+				<name type="string">1.1 Kobold Camp</name>
 				<text type="formattedtext">
 					<p>A small band of 6 kobolds holds the camp itself with their pet crocodile, Bigteeth.</p>
 					<h>Contains</h>
@@ -4908,6 +5623,128 @@
 					</list>
 				</text>
 			</id-00008>
+			<id-00009>
+				<locked type="number">1</locked>
+				<name type="string">2.1 Flashflood</name>
+				<text type="formattedtext">
+					<p>This is a narrative skill encounter.</p>
+					<p>A storm has begun in the jungle; another sudden canopy burst. But this time it is getting bad, and streams are swelling and a very real current is starting to form across the very ground.</p>
+					<p>All characters must succeed on a DC 13 Dexterity saving throw or be sucked into a sudden sinkhole. Drag or paraphrase the following:</p>
+					<frame>With a sudden crash, over the rain and the rushing water, you hear the sound, not of thunder but the cracking of ancient wood, earth and stone. The ground below you opens, a yawning chasm devouring the jungle itself.</frame>
+					<frame>Those of you who failed your saving throw are sucked under, caught in a swirling terror of rushing water and crashing stone as you are swept along helplessly.</frame>
+					<frame>Those who saved find yourselves clinging to the nearest vine, bush or root that you could grab, but this vortex is powerful and in a blink, your lifeline fails and you have just enough time to take a breath and prepare as you too are swept under.</frame>
+					<p>If all of the characters succeed on their saving throw, they can avoid being drawn into the chasm; that essentially avoids this adventure. Make note of which character had the lowest saving throw; they fell first.</p>
+					<p><b>Drowning</b></p>
+					<frame>In the breathless and disoriented moments that follow you manage to get your head up and your eyes open enough to put together that the sinkhole is emptying into some underground tunnel; and you are right on the crest of this tidal wave.</frame>
+					<linklist>
+						<link class="note" recordname="notes.id-00003">Flashflood Actions</link>
+					</linklist>
+					<p>Let the characters choose a defensive action and continue:</p>
+					<frame>Carried along by the torrent you realize that this tunnel far from smooth. Buffetted by the current you are propelled along, slammed against stone and suffocated.</frame>
+					<p>All characters must make a DC 12 Strength saving throw. Those who fail take 3 (1d6) bludgeoning damage. This continues for 1d3 rounds before the flood torrent forks.</p>
+					<p><b>Split</b></p>
+					<p>As the characters rush along through the deluge, note that the character who fell first is in the lead. To them, whisper:</p>
+					<frame>Choose odd or even and whisper your choice to me alone, then make a Charisma (Persuasion) check.</frame>
+					<p>and to the group:</p>
+					<frame>As you continue to tumble onward and downward into darkness you are terrified to notice that the course ahead forks.</frame>
+					<p>Each player after the first to fall must now succeed on a DC 13 Strength (Athletics) or Wisdom (Perception) check to stay on the path of the ally in front of them. For every two points above 10 that the lead character rolled on their Persuasion check, give the others a +1 bonus. For example, if the first character rolled a 17, then those behind him gain a +3 bonus. For those who fail, have them roll a d20; if the result on the die matches the lead character's whispered choice (odd or even), then the current sweeps them that way regardless. Otherwise, the party is split.</p>
+					<frame>Still swept along, you soon come to regret wishing that this would end. As you feel yourself no longer sliding and swirling but rather free falling, you barely have to ponder your fate before you feel yourself splash into a pool. The current quickly washes you to some kind of stone shore.</frame>
+				</text>
+			</id-00009>
+			<id-00010>
+				<name type="string">2.2 Fungus Tunnels</name>
+				<text type="formattedtext">
+					<linklist>
+						<link class="battlerandom" recordname="battlerandom.id-00014">Fungus Patch</link>
+					</linklist>
+				</text>
+			</id-00010>
+			<id-00011>
+				<name type="string">2.2a Myconid Circle</name>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+			</id-00011>
+			<id-00012>
+				<locked type="number">1</locked>
+				<name type="string">2.3 Druid's Vault</name>
+				<text type="formattedtext">
+					<p>This is where the dead druid is, the exit and the blighted creatures</p>
+					<h>Contents</h>
+					<linklist>
+						<link class="battle" recordname="battle.id-00012">Blighted Plants</link>
+						<link class="imagewindow" recordname="image.id-00008">Map</link>
+					</linklist>
+					<h>Features of the Area</h>
+					<list>
+						<li>Total darkness.</li>
+						<li>The insane babbling from the creature in the next room can be heard here. Creatures in the room that can hear it must succeed at a DC 16 Wisdom saving throw or suffer disadvantage on all ability checks. Creatures may attempt this saving throw again at the end of each of their turns and a character who succeeds becomes immune to this effect for the next 24 hours. The tree doesn't babble while there are active blights.</li>
+						<li>Once per hour, the tree checks to recharge it's <i>awaken blights </i>ability. Blights summoned appear in this room.</li>
+						<li>The rotten body of a dead humanoid and an atrocious stench.</li>
+					</list>
+					<h>Escaping the Vault</h>
+					<p>This place has been permanently and hermetically sealed. Escaping the vault is going to be a matter of digging a way out. This room and the Wardroom are closest to the surface and with the poor quality of the ancient stone and all, give every appearance that they should be the best places to work.</p>
+					<p>To escape the vault, characters will have to earn 12 successes. That will require succeeding on a DC 16 Strength (Athletics) check (possibly while affected by the tree's babble), or by using weapons to attack it. If attacking, roll your weapon damage; the wall has resistance to all damage, and a hardness of 7, but any final damage counts as one success.</p>
+					<p>Characters can remove the protective barrier on the vault by destroying the tree or convincing the Myconoid Sovereign to reanimate the Druid to lower it. In either case, once dispelled the wall loses its resistance to damage and its hardness is reduced to 2.</p>
+					<p>Due to the difficult nature of the task, the enclosed putrid space and the bad air, fatigue checks made during this encounter are at a -2 penalty.</p>
+					<p>Escaping the vault rewards XP equal to a CR 2 encounter.</p>
+					<linklist>
+						<link class="quest" recordname="quest.id-00002">Escape the Druid Vault</link>
+					</linklist>
+				</text>
+			</id-00012>
+			<id-00013>
+				<locked type="number">1</locked>
+				<name type="string">2.4 The Tree's Wardroom</name>
+				<text type="formattedtext">
+					<p>This is the room where the Druid locked his crazed patient away.</p>
+					<h>Contents</h>
+					<linklist>
+						<link class="battle" recordname="battle.id-00013">Encounter: The Insane Tree</link>
+						<link class="imagewindow" recordname="image.id-00008">Map: Druid Vault</link>
+					</linklist>
+					<h>Development</h>
+					<p>If the characters destroy the tree, the Druid's ward will fail and the thing will stop babbling allowing the characters to leave the vault easily.</p>
+				</text>
+			</id-00013>
+			<id-00014>
+				<locked type="number">1</locked>
+				<name type="string">3.0 Albior</name>
+				<text type="formattedtext">
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00009">Map: Albior</link>
+					</linklist>
+					<h>Services</h>
+					<p><b>Craftsman's Square</b></p>
+					<p>East of the Market, is another cluster of huts specialized as workplaces for the village's resident craftsmen. In each case, the lead artisan is a 3rd level craftsman who lives on site. Albior has a resident:</p>
+					<list>
+						<li>Brewer, Ovlur</li>
+						<li>Carpenter, Ilyas</li>
+						<li>Cobbler, Surkho</li>
+						<li>Jeweler, Tashet</li>
+						<li>Leatherworker, Buvais</li>
+						<li>Mason, Kerim</li>
+						<li>Potter, Saidal</li>
+						<li>Smith, Solsa</li>
+						<li>Weaver, Khasurt</li>
+						<li>Woodcarver, Narbi</li>
+					</list>
+					<p><b>Longhouse</b></p>
+					<p>One the western side of the Market is the village's Longhouse, a social gathering place, chop-house and public barracks. While in town, characters can get the catch of the day meal (modest quality) for 3cp and they may sleep here in their own bedrolls for free. Other public options are unavilable.</p>
+					<p>This is also the forum space in which the Chief conducts most of his day-to-day business.</p>
+					<p><b>Market</b></p>
+					<p>In the center of the village is a large cleared area roughly 100 yards in diameter. The center of the zone has a lidded stone well surrounded by a small deck. During market days the rest of the area is usually a noisy clutter of carts and individuals buying and selling their goods; otherwise, the space is used as a social gathering spot for the locals to gossip.</p>
+					<p>Atop the deck is a pair of posts with a few slats of wood across them called 'the Boards' where the village's elders will often nail notices and things.</p>
+					<p><b>Temple of Albior</b></p>
+					<p>The Temple here, north of the Market, is dedicated to the spirit of Albior itself. It's lead shaman, Ayndi, offers healing and simple potions as well as spellcasting services and acts as the village's wiseman and spiritual leader.</p>
+					<p>Along the path to the temple, characters can find these additional craftsmen:</p>
+					<list>
+						<li>Alchemist and Poisoner, Timur</li>
+						<li>Calligrapher and Cartographer, Abu</li>
+						<li>Glassblower, Mamed</li>
+					</list>
+				</text>
+			</id-00014>
 		</category>
 	</encounter>
 	<export>
@@ -4971,7 +5808,8 @@
 					<description type="formattedtext">
 						<h>Description</h>
 						<linklist>
-							<link class="imagewindow" recordname="reference.imagedata.img_cloak_of_displacement_jpg@*"><b>Image: </b></link>Cloak of Displacement</linklist>
+							<link class="imagewindow" recordname="reference.imagedata.img_cloak_of_displacement_jpg@*"><b>Image: </b>Cloak of Displacement</link>
+						</linklist>
 						<p>While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while you are incapacitated, restrained, or otherwise unable to move.</p>
 					</description>
 					<istemplate type="number">1</istemplate>
@@ -5155,6 +5993,23 @@
 				<p>The settlement has attracted nomads, and those who visit tend to want to stay. This is because the greatest threat is not bandits or goblins, but the jungle itself. So any settled area is highly attractive.</p>
 			</text>
 		</id-00002>
+		<id-00003>
+			<public />
+			<locked type="number">1</locked>
+			<name type="string">Flashflood Actions</name>
+			<text type="formattedtext">
+				<table>
+					<tr>
+						<td>Strength (Athletics), Dexterity (Acrobatics)</td>
+						<td>DC 11: when in a river, you swim and/or ride it. Gain advantage on all saving throws until the end of your next turn.</td>
+					</tr>
+					<tr>
+						<td>Intelligence (Nature), Wisdom (Perception),</td>
+						<td>DC 11: you can at least see the inevitable coming. Gain resistance to bludgeoning damage until the end of your next turn.</td>
+					</tr>
+				</table>
+			</text>
+		</id-00003>
 	</notes>
 	<npc>
 		<category name="Jumanji Beastiary" baseicon="0" decalicon="0">
@@ -5514,7 +6369,41 @@
 	</options>
 	<partysheet>
 		<public />
+		<bonus type="number">0</bonus>
+		<checkdc type="number">0</checkdc>
+		<checkselected type="string">Strength</checkselected>
+		<hiderollresults type="number">0</hiderollresults>
+		<partyinformation>
+			<public />
+		</partyinformation>
+		<savedc type="number">0</savedc>
+		<saveselected type="string">Strength</saveselected>
+		<skilldc type="number">0</skilldc>
 	</partysheet>
+	<quest>
+		<category name="Jumanji" baseicon="0" decalicon="0">
+			<id-00001>
+				<cr type="string">1</cr>
+				<description type="formattedtext">
+					<p>For survival a journey through the Upper Jungle, have a cookie.</p>
+				</description>
+				<locked type="number">1</locked>
+				<name type="string">Survive the Upper Jungle</name>
+				<xp type="number">25</xp>
+			</id-00001>
+		</category>
+		<category name="The Druid Vault" baseicon="0" decalicon="0">
+			<id-00002>
+				<cr type="string">2</cr>
+				<description type="formattedtext">
+					<p>Make it out the vault alive.</p>
+				</description>
+				<locked type="number">1</locked>
+				<name type="string">Escape the Druid Vault</name>
+				<xp type="number">450</xp>
+			</id-00002>
+		</category>
+	</quest>
 	<race>
 	</race>
 	<reference>
@@ -5557,6 +6446,8 @@
 			</upper_jungle>
 		</refmanual>
 	</reference>
+	<skill>
+	</skill>
 	<spell>
 	</spell>
 	<tables>
@@ -5566,7 +6457,7 @@
 				<hiderollresults type="number">0</hiderollresults>
 				<locked type="number">1</locked>
 				<mod type="number">0</mod>
-				<name type="string">The Upper Jungle: Random Encounters CR 1</name>
+				<name type="string">The Upper Jungle: Random Encounters</name>
 				<notes type="formattedtext">
 					<p></p>
 				</notes>
@@ -5584,7 +6475,7 @@
 								</resultlink>
 							</id-00001>
 						</results>
-						<torange type="number">4</torange>
+						<torange type="number">3</torange>
 					</id-00001>
 					<id-00002>
 						<fromrange type="number">9</fromrange>
@@ -5625,6 +6516,177 @@
 						</results>
 						<torange type="number">8</torange>
 					</id-00004>
+					<id-00005>
+						<fromrange type="number">4</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Jungle Encounter CR 2 (simple combat)</result>
+								<resultlink type="windowreference">
+									<class>table</class>
+									<recordname>tables.id-00006</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">4</torange>
+					</id-00005>
+					<id-00006>
+						<description type="string">For use in the Deep Jungle or for CR 3 forest/swamp environments.</description>
+						<dice type="dice"></dice>
+						<hiderollresults type="number">0</hiderollresults>
+						<locked type="number">1</locked>
+						<mod type="number">0</mod>
+						<name type="string">Jungle Encounter CR 3</name>
+						<notes type="formattedtext">
+							<p></p>
+						</notes>
+						<resultscols type="number">1</resultscols>
+						<table_positionoffset type="number">0</table_positionoffset>
+						<tablerows>
+							<id-00001>
+								<fromrange type="number">0</fromrange>
+								<results>
+									<id-00001>
+										<result type="string">3. Brown Bears</result>
+										<resultlink type="windowreference">
+											<class>battlerandom</class>
+											<recordname>battlerandom.id-00005</recordname>
+										</resultlink>
+									</id-00001>
+								</results>
+								<torange type="number">0</torange>
+							</id-00001>
+							<id-00002>
+								<fromrange type="number">0</fromrange>
+								<results>
+									<id-00001>
+										<result type="string">3. Dire Wolves</result>
+										<resultlink type="windowreference">
+											<class>battlerandom</class>
+											<recordname>battlerandom.id-00008</recordname>
+										</resultlink>
+									</id-00001>
+								</results>
+								<torange type="number">0</torange>
+							</id-00002>
+							<id-00003>
+								<fromrange type="number">0</fromrange>
+								<results>
+									<id-00001>
+										<result type="string">3. Glass Gator</result>
+										<resultlink type="windowreference">
+											<class>battlerandom</class>
+											<recordname>battlerandom.id-00008</recordname>
+										</resultlink>
+									</id-00001>
+								</results>
+								<torange type="number">0</torange>
+							</id-00003>
+							<id-00004>
+								<fromrange type="number">0</fromrange>
+								<results>
+									<id-00001>
+										<result type="string">3. Giant Spider</result>
+										<resultlink type="windowreference">
+											<class>battlerandom</class>
+											<recordname>battlerandom.id-00007</recordname>
+										</resultlink>
+									</id-00001>
+								</results>
+								<torange type="number">0</torange>
+							</id-00004>
+							<id-00005>
+								<fromrange type="number">0</fromrange>
+								<results>
+									<id-00001>
+										<result type="string">3. Tigers</result>
+										<resultlink type="windowreference">
+											<class>battlerandom</class>
+											<recordname>battlerandom.id-00009</recordname>
+										</resultlink>
+									</id-00001>
+								</results>
+								<torange type="number">0</torange>
+							</id-00005>
+							<id-00006>
+								<fromrange type="number">0</fromrange>
+								<results>
+									<id-00001>
+										<result type="string">3. Allosaurus</result>
+										<resultlink type="windowreference">
+											<class>battlerandom</class>
+											<recordname>battlerandom.id-00010</recordname>
+										</resultlink>
+									</id-00001>
+								</results>
+								<torange type="number">0</torange>
+							</id-00006>
+							<id-00007>
+								<fromrange type="number">0</fromrange>
+								<results>
+									<id-00001>
+										<result type="string">3. Giant Constrictor Brood</result>
+										<resultlink type="windowreference">
+											<class>battlerandom</class>
+											<recordname>battlerandom.id-00011</recordname>
+										</resultlink>
+									</id-00001>
+								</results>
+								<torange type="number">0</torange>
+							</id-00007>
+							<id-00008>
+								<fromrange type="number">0</fromrange>
+								<results>
+									<id-00001>
+										<result type="string">3. Giant Boar</result>
+										<resultlink type="windowreference">
+											<class>battlerandom</class>
+											<recordname>battlerandom.id-00012</recordname>
+										</resultlink>
+									</id-00001>
+								</results>
+								<torange type="number">0</torange>
+							</id-00008>
+							<id-00009>
+								<fromrange type="number">0</fromrange>
+								<results>
+									<id-00001>
+										<result type="string">3. Saber-Toothed Tiger</result>
+										<resultlink type="windowreference">
+											<class>battlerandom</class>
+											<recordname>battlerandom.id-00013</recordname>
+										</resultlink>
+									</id-00001>
+								</results>
+								<torange type="number">0</torange>
+							</id-00009>
+							<id-00010>
+								<fromrange type="number">0</fromrange>
+								<results>
+									<id-00001>
+										<result type="string">3. Sarco</result>
+										<resultlink type="windowreference">
+											<class>battlerandom</class>
+											<recordname>battlerandom.id-00014</recordname>
+										</resultlink>
+									</id-00001>
+								</results>
+								<torange type="number">0</torange>
+							</id-00010>
+							<id-00011>
+								<fromrange type="number">0</fromrange>
+								<results>
+									<id-00001>
+										<result type="string">3. Giant Poisonous Snakes</result>
+										<resultlink type="windowreference">
+											<class>battlerandom</class>
+											<recordname>battlerandom.id-00015</recordname>
+										</resultlink>
+									</id-00001>
+								</results>
+								<torange type="number">0</torange>
+							</id-00011>
+						</tablerows>
+					</id-00006>
 				</tablerows>
 			</id-00001>
 			<id-00002>
@@ -5950,6 +7012,138 @@
 					</id-00007>
 				</tablerows>
 			</id-00005>
+			<id-00006>
+				<dice type="dice"></dice>
+				<hiderollresults type="number">0</hiderollresults>
+				<locked type="number">1</locked>
+				<mod type="number">0</mod>
+				<name type="string">Jungle Encounter CR 2</name>
+				<notes type="formattedtext">
+					<p></p>
+				</notes>
+				<output type="string">encounter</output>
+				<resultscols type="number">1</resultscols>
+				<table_positionoffset type="number">0</table_positionoffset>
+				<tablerows>
+					<id-00001>
+						<fromrange type="number">1</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Flying Snakes</result>
+								<resultlink type="windowreference">
+									<class>battlerandom</class>
+									<recordname>battlerandom.id-00008</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">3</torange>
+					</id-00001>
+					<id-00002>
+						<fromrange type="number">4</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Boar Pack</result>
+								<resultlink type="windowreference">
+									<class>battlerandom</class>
+									<recordname>battlerandom.id-00009</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">6</torange>
+					</id-00002>
+					<id-00003>
+						<fromrange type="number">7</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Kobold Trappers</result>
+								<resultlink type="windowreference">
+									<class>battlerandom</class>
+									<recordname>battlerandom.id-00010</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">9</torange>
+					</id-00003>
+					<id-00004>
+						<fromrange type="number">10</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Kobold Bandits</result>
+								<resultlink type="windowreference">
+									<class>battlerandom</class>
+									<recordname>battlerandom.id-00011</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">12</torange>
+					</id-00004>
+					<id-00005>
+						<fromrange type="number">13</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Dire Wolves</result>
+								<resultlink type="windowreference">
+									<class>battle</class>
+									<recordname>battle.id-00009</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">14</torange>
+					</id-00005>
+					<id-00006>
+						<fromrange type="number">15</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Giant Constrictor Snake</result>
+								<resultlink type="windowreference">
+									<class>battle</class>
+									<recordname>battle.id-00010</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">16</torange>
+					</id-00006>
+					<id-00007>
+						<fromrange type="number">17</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Poisonous Snakes, Swarm</result>
+								<resultlink type="windowreference">
+									<class>battle</class>
+									<recordname>battle.id-00011</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">18</torange>
+					</id-00007>
+					<id-00008>
+						<fromrange type="number">19</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Giant Wasp Nest</result>
+								<resultlink type="windowreference">
+									<class>battlerandom</class>
+									<recordname>battlerandom.id-00012</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">19</torange>
+					</id-00008>
+					<id-00009>
+						<fromrange type="number">20</fromrange>
+						<results>
+							<id-00001>
+								<result type="string">Jungle Encounter CR 1</result>
+								<resultlink type="windowreference">
+									<class>table</class>
+									<recordname>tables.id-00002</recordname>
+								</resultlink>
+							</id-00001>
+						</results>
+						<torange type="number">20</torange>
+					</id-00009>
+				</tablerows>
+			</id-00006>
 		</category>
 	</tables>
 	<treasureparcels>
